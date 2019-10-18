@@ -1,0 +1,34 @@
+
+<script type="text/javascript">
+
+var wooYayIntervalId = 0;
+var minutes = 1;
+function wooYayClickHandler ( )
+{
+  if ( document.getElementById("wooYayButton").value == "Click me!" )
+    {
+        // Start the timer
+        document.getElementById("wooYayButton").value = "Enough already!";
+        wooYayIntervalId = setInterval ( "wooYay()", 1000  );
+}
+    else
+{
+      document.getElementById("wooYayMessage").innerHTML = "";
+      document.getElementById("wooYayButton").value = "Click me!";
+      clearInterval ( wooYayIntervalId );
+}
+}
+
+function wooYay ()
+{
+  minutes ++ ;
+  document.getElementById("wooYayMessage").innerHTML = minutes;
+
+  setTimeout ( 'document.getElementById("wooYayMessage").innerHTML = ""', 500 );
+}
+
+</script>
+
+      <div id="wooYayMessage" style="height: 1.5em; font-size: 2em; color: red;"></div>
+      <input type="button" name="clickMe" id="wooYayButton" value="Click me!" onclick="wooYayClickHandler()"/>
+

@@ -1,0 +1,55 @@
+/*------------------------------------*\
+  screen6.css
+	----------
+	Configurateur Idéfix
+	Copyright © 2019
+\*------------------------------------*/
+	
+/* --------------------------------------------------------- container */
+
+.container {
+	grid-template-columns: 240px 80px 1fr 100px;
+	grid-template-areas:
+                      "menu0  	header0   header		logo"
+                      "menu	    colonne_1	colonne_1 colonne_1"
+                      "notes   	footer   	footer	 	footer";
+}
+
+/* ------------------------------------------------------------- Colonne 1 */
+
+.colonne_1 {
+  grid-area: colonne_1;
+  height:100%;
+	/*width:75%;
+	padding:15px;
+	margin:auto;*/
+}
+fieldset {
+  width		: 350px;
+  margin	: 4rem auto;
+}
+/*
+fieldset label {
+	width		: 150px;
+}
+fieldset input[type=text] {
+	width:160px;
+}
+*/
+label {
+	display			: inline-block;
+	width				: 130px;
+	text-align	: right;
+	margin-top	: 1em;
+}
+input {
+	width:160px;
+}
+#validation {
+	display			: block;
+	margin      : 1.5em auto 0 auto;
+}
+
+/* -------------------------------------------------------------------- */
+
+

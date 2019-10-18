@@ -1,0 +1,44 @@
+/*------------------------------------*\
+  screen4.css
+	----------
+	Configurateur du réseau
+	Copyright © 2019
+\*------------------------------------*/
+
+/* --------------------------------------------------------- container */
+
+.container {
+	grid-template-columns: 240px 80px 1fr 1fr 100px;
+	grid-template-areas:
+											"menu0  	header0   header		header		logo"
+											"menu	    colonne_1	colonne_1 colonne_2	colonne_2"
+											"notes   	footer   	footer   	footer	 	footer";
+}
+
+/* ------------------------------------------------------------- Colonne 1 */
+
+.colonne_1 #systeme_lan_netmask_decimal {
+	visibility:collapse;
+}
+#calcul {
+	visibility:collapse;
+}
+
+.colonne_1 option.classe {
+	background-color	: rgb(232, 255, 232);
+	border-top				: 1px solid #808080;
+	border-bottom			: 1px solid black;
+}
+.colonne_1 label {
+  width:120px;
+}
+
+/* ------------------------------------------------------------- Colonne 2 */
+
+#enregistrer_parametres {
+  position:relative;
+  top:183px;
+  left:40px;
+}
+
+/* -------------------------------------------------------------------- */

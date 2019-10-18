@@ -1,0 +1,88 @@
+/*------------------------------------*\
+  screen12.css
+	----------
+	Configurateur Idéfix
+	Copyright © 2019
+\*------------------------------------*/
+	
+/* --------------------------------------------------------- container */
+
+.container {
+	grid-template-columns: 240px 110px 1fr 110px;
+	grid-template-areas:
+                      "menu0  	header0   header		logo"
+                      "menu	    colonne_1	colonne_1 colonne_1"
+                      "notes   	footer   	footer	 	footer";
+}
+
+/* ------------------------------- header0 */
+
+
+/* ------------------------------------------------------------- Colonne 1 */
+
+.colonne_1 {
+  grid-area: colonne_1;
+  height:100%;
+  text-align:center;
+  padding-top:0;						/*	border:1px solid #D3D3D3;*/
+}
+
+
+fieldset {
+	width							: 340px;	/*auto;*/
+	/*height		: 250px;*/
+	border-radius			: 7px;
+	margin			: 2rem auto;
+	padding:0.8rem;
+}
+/*
+legend {
+	font-size					: 1.1em;
+	padding						: 0 7px 2px 7px;
+	color							: white;
+	background-color	: RGB(81, 81, 81);
+	border-radius			: 3px;
+}
+*/
+fieldset div.msg_3_dossiers {
+	font-size:110%;
+	margin-bottom:1rem;
+}
+
+fieldset div:nth-child(3) {
+	/*border:1px dotted red;*/
+	margin-top:1rem;
+	height:20px;
+}
+.colonnes2 {
+	column-count:2;
+	column-gap:20px;
+	column-rule:1px dotted gray;
+}
+
+/* ---------------------------------------------- FTP ----------------- */
+
+.message {
+	font-size:0.8rem;
+	/*margin:5rem auto; */
+	margin-top:5rem;
+	margin-left:calc(50% - 240px + 15px + 15px);
+	border:1px solid red;
+	padding:1rem;
+	width:300px;
+	background-color:#FFFFE0;
+}
+.message p {
+	margin:0.4rem auto;
+}
+
+
+
+
+
+
+
+
+
+
+

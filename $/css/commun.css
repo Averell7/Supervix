@@ -1,0 +1,175 @@
+/*------------------------------------*\
+  commun.css
+	----------
+	Configurateur Idéfix
+	Copyright © 2019
+\*------------------------------------*/
+
+/*------------------------------------*\
+  https://web-color.aliasdmc.fr/convertisseur-couleur-rgb-hsl-hexa-predefini.php#bloc-resultat
+\*------------------------------------*/
+
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}		
+html, body, div {
+	margin:0;
+	padding:0;
+}
+/* Pour éviter le décalage à l'affichage */
+html {overflow-y:scroll;}
+
+body {
+	display						: flex;
+	justify-content		: center;
+	/*padding						: 0 10px;*/
+	font-family				: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size					: 75%;
+	background-color	: RGB(44, 44, 54);
+}
+.container {
+  display: grid;
+	grid-template-rows		: 85px 1fr 40px;
+  grid-gap: 5px 15px;
+	
+  width:100%;
+  min-width:1280px;
+  max-width:1349px;
+	background-color	: #FEFCF1;
+	padding:10px;
+	min-height:700px;
+}
+/* -------------------------------------------------------------- header */
+
+/* ------------------------------- menu0 */
+
+.menu0 {
+  grid-area: menu0;
+  text-align:center;
+	font-weight:bold;
+}
+.menu0:hover {
+	cursor:pointer;
+}
+.menu0 .titre0 {
+	font-size:1.9rem;
+  color:#008000;
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.7);
+}
+.menu0 .sous_titre0 {
+  font-size:1.05rem;
+  color:#808080;
+  display:inline-block;
+  margin-top:2px;
+}
+
+/* ------------------------------- header0 */
+
+.header0 {
+	grid-area: header0;
+	margin-top:1.2rem;
+  /*border:1px dotted gray;*/
+}
+/* ------------------------------- header */
+.header {
+	grid-area: header;
+	text-align:center;
+	padding-bottom:1em;
+	padding-bottom:0;
+	margin:0;
+  font-weight:bold;
+}
+.header .titre {
+	font-size:1.62rem;
+  color:#008000;
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.7);
+}
+/* ------------------------------- logo */
+.logo {
+	grid-area: logo;
+  background: url('../../$/icones/logo.gif') right top no-repeat;
+}
+
+/* -------------------------------------------------------------- menu */
+
+.menu {
+  grid-area: menu;
+  /*padding-top:12px;*/
+}
+
+/* ------------------------------------------------------------- Colonne 1 */
+
+.colonne_1 {
+	grid-area: colonne_1;
+	height:100%;
+}
+
+/* ------------------------------------------------------------- Colonne 2 */
+
+.colonne_2 {
+	grid-area: colonne_2;
+	height:100%;
+}
+
+/* ------------------------------------------------------------- notes */
+
+.notes {
+  grid-area: notes;
+  margin:auto;
+}
+.notes button {
+  margin-bottom:0.4rem;
+}
+
+/* ------------------------------------------------------------- footer */
+
+.footer {
+	grid-area: footer;
+	text-align:center;
+	margin-top:1em;
+	/*margin-bottom:1em;
+  border:1px dotted gray;*/
+	height:100%;
+	color:gray;
+  font-size:110%;
+  padding:0 1rem;
+}
+/* -------------------------------------------------------------- divers */
+
+button > img {
+	vertical-align: bottom;
+}
+
+fieldset {
+	width							: auto;
+	border-radius			: 7px;
+	background-color	: RGB(215, 215, 215);
+	margin-bottom			: 10px;
+}
+legend {
+	font-size					: 1.2em;
+	padding						: 0 7px;
+	color							: white;
+	background-color	: RGB(81, 81, 81);
+	border-radius			: 3px;
+}
+
+
+label {
+	display						: inline-block;
+	text-align				: right;
+}
+
+.ecarteur {
+	display						: inline-block;
+	width							: 25px;
+}
+.cacher {
+	display						: none;
+}
+
+/* -------------------------------------------------------------  */
+
+

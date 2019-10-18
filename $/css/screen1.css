@@ -1,0 +1,66 @@
+/*------------------------------------*\
+  screen1.css
+	----------
+	Configurateur Idéfix
+	Copyright © 2019
+\*------------------------------------*/
+	
+/* --------------------------------------------------------- container */
+
+.container {
+	grid-template-columns: 240px 130px 1fr 130px;
+	grid-template-areas:
+                      "menu0  	header0   header		logo"
+                      "menu	    colonne_1	colonne_1 colonne_1"
+                      "notes   	footer   	footer	 	footer";
+}
+
+/* ------------------------------- header0 */
+
+.globe {
+	vertical-align:bottom;/*text-top;*/
+	margin-right:2px;
+}
+
+/* ------------------------------------------------------------- Colonne 1 */
+
+.colonne_1 {
+  grid-area: colonne_1;
+  height:100%;
+  text-align:center;
+  padding-top:5rem;
+}
+/*			?
+.connect {
+	margin: 1rem 0 2rem 0;
+	font-size:1.1rem;
+	color:#4D4D4D;
+	
+}
+*/
+/* ------------------------------- Survol images --- */
+/* http://css3.bradshawenterprises.com/cfimg/#cfimg1 */
+
+#cf {
+	position:relative;
+	height:202px;
+	width:220px;
+	margin:0 auto;
+}
+
+#cf img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+	opacity:0;
+}
+					
+/* -------------------------------------------------------------------- */
+
+

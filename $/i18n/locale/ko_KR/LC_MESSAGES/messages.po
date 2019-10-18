@@ -1,0 +1,944 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-04-19 12:03+0200\n"
+"PO-Revision-Date: 2019-04-19 12:08+0200\n"
+"Last-Translator: Serge <xxx@xxx.com>\n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ../../../../../../idefix_dev\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: V\n"
+"X-Poedit-SearchPathExcluded-1: bandwidthd\n"
+"X-Poedit-SearchPathExcluded-2: bw\n"
+"X-Poedit-SearchPathExcluded-3: etc\n"
+"X-Poedit-SearchPathExcluded-4: home\n"
+"X-Poedit-SearchPathExcluded-5: usr\n"
+"X-Poedit-SearchPathExcluded-6: var\n"
+"X-Poedit-SearchPathExcluded-7: tmp\n"
+"X-Poedit-SearchPathExcluded-8: txt\n"
+"X-Poedit-SearchPathExcluded-9: usr - 1.0.11\n"
+"X-Poedit-SearchPathExcluded-10: _aj.php\n"
+"X-Poedit-SearchPathExcluded-11: _ajax_config_backups_suppression.php\n"
+"X-Poedit-SearchPathExcluded-12: _ajax_visu_donnees_systeme_2.php\n"
+"X-Poedit-SearchPathExcluded-13: _analyse_blocage_sites - datatable.php\n"
+"X-Poedit-SearchPathExcluded-14: _confix.php\n"
+"X-Poedit-SearchPathExcluded-15: _visu-donnees-systeme-v1.php\n"
+
+#: $/classesphp/analyseBackups.php:218
+msgid "Aucune différence détectée sur les fichiers de ce dossier."
+msgstr "이 폴더에있는 파일에는 차이점이 없습니다."
+
+#: $/classesphp/analyseBackups.php:231
+msgid "Restaurer en date du"
+msgstr "현재 복원"
+
+#: $/classesphp/analyseBackups.php:343 $/includes/fonctions12.php:76
+#: ajax_config_backups_suppression.php:26
+msgid "Impossible de se connecter au serveur"
+msgstr "서버에 연결할 수 없습니다"
+
+#: $/classesphp/analyseBackups.php:349 $/includes/fonctions12.php:82
+#: ajax_config_backups_suppression.php:32
+msgid "La connexion FTP a échoué."
+msgstr "FTP 연결에 실패했습니다."
+
+#: $/classesphp/analyseBackups.php:350 $/includes/fonctions12.php:83
+#: ajax_config_backups_suppression.php:33
+msgid "Tentative de connexion au serveur"
+msgstr "서버에 연결 시도 중"
+
+#: $/classesphp/analyseBackups.php:351 $/includes/fonctions12.php:84
+#: ajax_config_backups_suppression.php:34
+msgid "pour l'utilisateur"
+msgstr "사용자를위한"
+
+#: $/classesphp/analyseBackups.php:485
+msgid "ligne"
+msgstr "라인"
+
+#: $/classesphp/analyseBackups.php:485
+msgid "Sauvegarde du"
+msgstr "보호"
+
+#: $/classesphp/analyseBackups.php:541
+msgid "Ne sont pas affichés"
+msgstr "표시되지 않습니다."
+
+#: $/classesphp/analyseBackups.php:543
+msgid "les sauvegardes qui sont identiques entre elles"
+msgstr "서로 동일한 백업"
+
+#: $/classesphp/analyseBackups.php:544
+msgid "les fichiers actuels qui sont identiques avec ceux de la sauvegarde"
+msgstr "백업 파일과 동일한 현재 파일"
+
+#: $/classesphp/analyseBackups.php:545
+msgid "les lignes qui sont identiques pour les fichiers finalement retenus"
+msgstr "마지막으로 선택한 파일에 대해 동일한 줄"
+
+#: $/classesphp/analyseBackups.php:553
+msgid "Attention !"
+msgstr "주의 !"
+
+#: $/classesphp/analyseBackups.php:555
+msgid ""
+"La restauration porte sur <u>l'ensemble des fichiers</u> contenus dans "
+"l'archive ZIP"
+msgstr "복원은 ZIP 아카이브에 포함 된<u>모든 파일</u>을 다룹니다"
+
+#: $/classesphp/analyseBackups.php:560
+msgid "Fichiers exclus"
+msgstr "제외 된 파일"
+
+#: $/classesphp/analyseBackups.php:570
+msgid "Extensions exclues"
+msgstr "제외 된 확장"
+
+#: $/classesphp/analyseBackups.php:714 $/classesphp/analyseBackups.php:730
+msgid "absent"
+msgstr "없는"
+
+#: $/classesphp/analyseBackups.php:861 $/classesphp/analyseBackups.php:878
+#: $/includes/fonctions12.php:13 $/includes/fonctions12.php:31
+msgid "Impossible d'accéder aux sauvegardes"
+msgstr "백업에 액세스 할 수 없습니다"
+
+#: $/classesphp/analyseBackups.php:861 $/includes/fonctions12.php:13
+msgid "Le fichier"
+msgstr "파일"
+
+#: $/classesphp/analyseBackups.php:861 $/includes/fonctions12.php:13
+msgid "est inexistant"
+msgstr "존재하지 않는다"
+
+#: $/classesphp/analyseBackups.php:878 $/includes/fonctions12.php:31
+msgid "Pas de compte FTP disponible dans le fichier"
+msgstr "파일에서 사용할 수있는 FTP 계정이 없습니다"
+
+#: $/includes/aide3.php:9
+msgid "Crée une nouvelle section du fichier sélectionné."
+msgstr "선택한 파일의 새 섹션을 만듭니다."
+
+#: $/includes/aide3.php:10
+msgid "Applique votre modification ou la création d'une nouvelle section."
+msgstr "변경 사항을 적용하거나 새 섹션을 만듭니다."
+
+#: $/includes/aide3.php:11
+msgid "Supprime une section ET toutes les lignes qu'elle contient."
+msgstr "섹션과 섹션에 포함 된 모든 라인을 삭제합니다."
+
+#: $/includes/aide3.php:12
+msgid "Déplace la section sélectionnée vers le haut."
+msgstr "선택한 부분을 위로 이동하십시오."
+
+#: $/includes/aide3.php:13
+msgid "Déplace la section sélectionnée vers le bas."
+msgstr "선택한 섹션을 아래로 이동합니다."
+
+#: $/includes/aide3.php:14
+msgid "Recherche les doublons sur le nom des sections."
+msgstr "섹션 이름에 중복 된 부분이 있는지 확인하십시오."
+
+#: $/includes/aide3.php:16
+msgid "Mettre ou non cette ligne complètement en commentaire."
+msgstr "이 행을 완전히 주석에 넣으십시오."
+
+#: $/includes/aide3.php:17
+msgid "Saisir ou modifier le contenu de la clé."
+msgstr "키의 내용을 입력하거나 수정하십시오."
+
+#: $/includes/aide3.php:18
+msgid "Saisir ou modifier le contenu de la valeur."
+msgstr "값의 내용을 입력하거나 수정하십시오."
+
+#: $/includes/aide3.php:19
+msgid "Ajouter ou non un commentaire pour cette ligne."
+msgstr "이 행에 대한 주석을 추가하거나 추가하십시오."
+
+#: $/includes/aide3.php:20
+msgid "Crée une nouvelle ligne."
+msgstr "새 줄을 만듭니다."
+
+#: $/includes/aide3.php:21
+msgid "Applique votre modification ou la création d'une nouvelle ligne."
+msgstr "변경 사항을 적용하거나 새 라인을 만듭니다."
+
+#: $/includes/aide3.php:22
+msgid "Supprime la ligne sélectionnée."
+msgstr "선택한 행을 삭제합니다."
+
+#: $/includes/aide3.php:23
+msgid "Recherche les éventuels doublons sur les lignes de la section en cours."
+msgstr "현재 섹션의 줄에 중복 가능성이 있는지 확인하십시오."
+
+#: $/includes/aide3.php:24
+msgid "Déplace la ligne sélectionnée vers le haut."
+msgstr "선택한 라인을 위로 이동하십시오."
+
+#: $/includes/aide3.php:25
+msgid "Déplace la ligne sélectionnée vers le bas."
+msgstr "선택한 선을 아래로 이동합니다."
+
+#: $/includes/aide3.php:26
+msgid ""
+"Effectue une recherche globale de tous les doublons éventuels.&lt;br />&nbsp;"
+"&lt;br />Pour chaque section de chaque fichier."
+msgstr ""
+"가능한 모든 중복에 대한 전역 검색을 수행합니다.<br />&nbsp;<br />각 파일의 "
+"각 섹션에 대해."
+
+#: $/includes/alert.php:14 ajax_calcul_infos_reseau.php:177 erreur.php:95
+msgid "Erreur"
+msgstr "오류"
+
+#: $/includes/alert.php:16
+msgid ""
+"Aucun doublon trouvé\n"
+"sur les sections"
+msgstr ""
+"중복 된 항목을 찾을 수 없습니다.\n"
+"섹션에"
+
+#: $/includes/alert.php:17
+msgid ""
+"Doublons trouvés\n"
+"sur les sections"
+msgstr ""
+"발견 된 중복 항목\n"
+"섹션에"
+
+#: $/includes/alert.php:18
+msgid "Compléter votre saisie."
+msgstr "진입을 완료하십시오."
+
+#: $/includes/alert.php:19
+msgid "Recherche de doublons sur les lignes"
+msgstr "행에 중복 된 항목 찾기"
+
+#: $/includes/alert.php:20
+msgid "Aucun trouvé"
+msgstr "찾지 못함"
+
+#: $/includes/alert.php:21
+msgid "trouvés"
+msgstr "발견"
+
+#: $/includes/alert.php:22
+msgid "trouvé sur les URLs"
+msgstr "URL에서 찾았습니다"
+
+#: $/includes/alert.php:23
+msgid "trouvés sur les URLs"
+msgstr "URL에서 찾았습니다"
+
+#: $/includes/alert.php:25
+msgid "Caractère interdit."
+msgstr "금지 된 문자."
+
+#: $/includes/alert.php:27 $/includes/alert.php:32
+msgid "Veuillez compléter les champs suivants"
+msgstr "다음 입력란을 작성하십시오"
+
+#: $/includes/alert.php:28
+msgid "Le port doit être inférieur à 65535 !"
+msgstr "포트는 65535보다 작아야합니다 !"
+
+#: $/includes/alert.php:29
+msgid "Veuillez corriger l'adresse IP"
+msgstr "IP 주소를 수정하십시오"
+
+#: $/includes/alert.php:31
+msgid "Erreur : choix non implémenté."
+msgstr "오류 : 선택 사항이 구현되지 않았습니다."
+
+#: $/includes/alert.php:34
+msgid "Attention"
+msgstr "주의"
+
+#: $/includes/alert.php:35
+msgid "La modification des paramètres FTP est critique"
+msgstr "FTP 설정 변경은 중요합니다"
+
+#: $/includes/alert.php:36
+msgid "Elle va entraîner l'effacement total"
+msgstr "전체 삭제가 발생할 것입니다"
+
+#: $/includes/alert.php:37
+msgid "de la configuration actuelle"
+msgstr "현재 구성의"
+
+#: $/includes/alert.php:38
+msgid "Continuer ?"
+msgstr "계속 하시겠습니까 ?"
+
+#: $/includes/alert.php:41
+msgid "Redémarrage en cours"
+msgstr "재개 중"
+
+#: $/includes/alert.php:42
+msgid "Arrêt en cours"
+msgstr "진행 중 정지"
+
+#: $/includes/alert.php:44
+msgid "Vous demandez la restauration depuis"
+msgstr "이후로 복원을 요청합니다"
+
+#: $/includes/alert.php:45
+msgid "la sauvegarde du"
+msgstr "그 보호"
+
+#: $/includes/alert.php:46
+msgid "Vous confirmer ?"
+msgstr "확인하니 ?"
+
+#: $/includes/bandwidthd_menu.php:3 $/includes/bandwidthd_menu.php:21
+msgid "Journée"
+msgstr "일"
+
+#: $/includes/bandwidthd_menu.php:7 $/includes/bandwidthd_menu.php:25
+msgid "Semaine"
+msgstr "주"
+
+#: $/includes/bandwidthd_menu.php:11 $/includes/bandwidthd_menu.php:29
+msgid "Mois"
+msgstr "월"
+
+#: $/includes/bandwidthd_menu.php:15 $/includes/bandwidthd_menu.php:33
+msgid "Année"
+msgstr "년"
+
+#: $/includes/bandwidthd_menu.php:20
+msgid "Sous-réseau"
+msgstr "서브넷"
+
+#: $/includes/chaines7.php:8 config-internet.php:137 config-internet.php:266
+msgid "Identifiant"
+msgstr "로그인"
+
+#: $/includes/chaines7.php:9 changer-password.php:64 config-internet.php:141
+#: config-internet.php:269
+msgid "Mot de passe"
+msgstr "비밀번호"
+
+#: $/includes/deconnexion.php:2
+msgid "Se déconnecter de l'interface"
+msgstr "인터페이스와의 연결 끊기"
+
+#: $/includes/ips_dynamiques.php:8 $/includes/ips_dynamiques.php:39
+msgid "Automatique"
+msgstr "자동적 인"
+
+#: $/includes/ips_dynamiques.php:26
+msgid "Autre"
+msgstr "다른"
+
+#: $/includes/ips_dynamiques.php:32
+msgid "Aucun"
+msgstr "아니오"
+
+#: $/includes/menu.php:3
+msgid "Tableaux de bord"
+msgstr "대시 보드"
+
+#: $/includes/menu.php:7 visu-donnees-systeme.php:64
+msgid "État du système"
+msgstr "시스템 상태"
+
+#: $/includes/menu.php:8 visu-bandwidth.php:16
+msgid "Bande passante"
+msgstr "대역폭"
+
+#: $/includes/menu.php:9
+msgid "Activité"
+msgstr "활동"
+
+#: $/includes/menu.php:9
+msgid "réseau"
+msgstr "네트워크"
+
+#: $/includes/menu.php:10 visu-users-connected.php:17
+#: visu-users-connected.php:58
+msgid "Utilisateurs connectés"
+msgstr "연결된 사용자"
+
+#: $/includes/menu.php:14
+msgid "Fonctions de base"
+msgstr "기본 기능"
+
+#: $/includes/menu.php:17
+msgid "Mise à jour FTP du filtre"
+msgstr "필터의 FTP 업데이트"
+
+#: $/includes/menu.php:18 reboot-idefix.php:14
+msgid "Redémarrage d'Idéfix"
+msgstr "재부팅 Idéfix"
+
+#: $/includes/menu.php:19 changer-password.php:49
+msgid "Changement du mot de passe"
+msgstr "비밀번호 변경"
+
+#: $/includes/menu.php:23
+msgid "Fonctions avancées"
+msgstr "고급 기능"
+
+#: $/includes/menu.php:26 config-filtres.php:109 config-filtres.php:158
+msgid "Configuration des filtres"
+msgstr "필터 구성"
+
+#: $/includes/menu.php:27
+msgid "Configuration Réseau"
+msgstr "네트워크 구성"
+
+#: $/includes/menu.php:28
+msgid "Configuration Internet"
+msgstr "인터넷 구성"
+
+#: $/includes/menu.php:29
+msgid "Mises à jour Système &bull; Interface"
+msgstr "시스템 업데이트 &bull; 인터페이스"
+
+#: $/includes/menu.php:30 halt-idefix.php:14 halt-idefix.php:55
+msgid "Arrêt d'Idéfix"
+msgstr "Idéfix 정류장"
+
+#: $/includes/menu.php:34
+msgid "Restauration"
+msgstr "복구"
+
+#: $/includes/menu.php:37
+msgid "Configuration Idéfix"
+msgstr "Idéfix 구성"
+
+#: $/includes/menu.php:38
+msgid "Configuration Système"
+msgstr "시스템 구성"
+
+#: $/includes/menu.php:42
+msgid "Gestion"
+msgstr "관리"
+
+#: $/includes/menu.php:45 config-backups-suppression.php:15
+#: config-backups-suppression.php:57
+msgid "Suppression de sauvegardes"
+msgstr "백업 삭제"
+
+#: $/includes/menu.php:49
+msgid "Diagnostics"
+msgstr "진단"
+
+#: $/includes/menu.php:52 analyse_blocage_sites.php:16
+#: analyse_blocage_sites.php:58
+msgid "Analyse des blocages de sites"
+msgstr "사이트 블록 분석"
+
+#: $/includes/menu.php:56
+msgid "Informations techniques"
+msgstr "기술 정보"
+
+#: $/includes/menu.php:59
+msgid "Visualiser les fichiers"
+msgstr "파일보기"
+
+#: $/includes/menu.php:60 $/includes/menu.php:61 $/includes/menu.php:62
+#: $/includes/menu.php:63
+msgid "État du service"
+msgstr "서비스 상태"
+
+#: $/includes/version.php:3
+msgid "Version"
+msgstr "버전"
+
+#: S.php:14
+msgid "Non implémenté"
+msgstr "구현되지 않음"
+
+#: S.php:47 acces.php:41 analyse_blocage_sites.php:50 bandwidthd_annee.php:52
+#: bandwidthd_annee_subnet.php:52 bandwidthd_jour.php:52
+#: bandwidthd_jour_subnet.php:52 bandwidthd_mois.php:52
+#: bandwidthd_mois_subnet.php:52 bandwidthd_semaine.php:52
+#: bandwidthd_semaine_subnet.php:52 changer-password.php:41
+#: config-backups-suppression.php:49 config-filtres.php:150
+#: config-internet.php:108 config-reseau.php:107
+#: config-restauration-etc-usr.php:104 config-restauration-home.php:104
+#: erreur.php:73 halt-idefix.php:47 index.php:42 reboot-idefix.php:47
+#: update-config.php:47 update-system.php:47 visu-bandwidth.php:51
+#: visu-conf.php:70 visu-donnees-systeme.php:56 visu-service-ddclient.php:50
+#: visu-service-dhcp.php:50 visu-service-iptables.php:50
+#: visu-service-squid.php:50 visu-users-connected.php:50
+msgid "Page d'accueil"
+msgstr "홈페이지"
+
+#: S.php:73
+msgid "Non implémenté."
+msgstr "구현되지 않았습니다."
+
+#: acces.php:14
+msgid "Accès"
+msgstr "액세스"
+
+#: acces.php:49
+msgid "Contrôle d'accès"
+msgstr "액세스 제어"
+
+#: acces.php:64
+msgid "S'identifier"
+msgstr "로그인"
+
+#: acces.php:67
+msgid "Entrer mot de passe"
+msgstr "비밀번호 입력"
+
+#: acces.php:71
+msgid "Connexion"
+msgstr "로그인"
+
+#: ajax_calcul_infos_reseau.php:183
+msgid ""
+"Le calcul ne peux pas avoir lieu car le champ IP est vide ou non valide."
+msgstr "IP 필드가 비어 있거나 유효하지 않기 때문에 계산을 수행 할 수 없습니다."
+
+#: ajax_calcul_infos_reseau.php:185
+msgid ""
+"Le calcul ne peux pas avoir lieu car le champ MASK est vide ou non valide."
+msgstr ""
+"MASK 필드가 비어 있거나 유효하지 않기 때문에 계산을 수행 할 수 없습니다."
+
+#: ajax_commande_py.php:23
+msgid "À implémenter."
+msgstr "구현합니다."
+
+#: ajax_commande_py.php:42 visu-service-ddclient.php:90
+#: visu-service-dhcp.php:90 visu-service-iptables.php:90
+#: visu-service-squid.php:90 visu-users-connected.php:90
+msgid ""
+"Cette commande ne peut pas être exécutée car vous n'êtes pas sous Linux."
+msgstr "Linux를 실행하지 않기 때문에이 명령을 실행할 수 없습니다."
+
+#: ajax_config_backups_suppression.php:53
+#: ajax_config_backups_suppression.php:69
+msgid "Fichiers de backup supprimés"
+msgstr "삭제 된 백업 파일"
+
+#: ajax_config_backups_suppression.php:65
+#: ajax_config_backups_suppression.php:74
+msgid "Rafraîchir"
+msgstr "시원한"
+
+#: ajax_config_restauration.php:34
+msgid "Restauration effectuée."
+msgstr "복원이 완료되었습니다."
+
+#: ajax_ecrire_modifications.php:24 config-filtres.php:82
+msgid "Hors section"
+msgstr "외부 섹션"
+
+#: ajax_get_contenu_conf.php:19 visu-conf.php:28
+msgid "Ce fichier n'a pas été trouvé."
+msgstr "이 파일을 찾을 수 없습니다."
+
+#: ajax_mdp_change.php:31
+msgid "Le nouveau mot de passe a bien été enregistré."
+msgstr "새 암호가 저장되었습니다."
+
+#: ajax_mdp_change.php:33
+msgid "Modification refusée.<br />Votre ancien mot de passe est invalide."
+msgstr "수정이 거부되었습니다.<br />이전 비밀번호가 유효하지 않습니다."
+
+#: ajax_write_conf_internet.php:121
+msgid ""
+"L'enregistrement ne peut pas être effectué car vous n'êtes pas sous Linux."
+msgstr "리눅스를 사용하지 않기 때문에 등록을 할 수 없습니다."
+
+#: ajax_write_conf_reseau.php:151
+msgid "Enregistrement effectué."
+msgstr "녹화가 완료되었습니다."
+
+#: analyse_blocage_sites.php:81
+msgid "Votre adresse IP"
+msgstr "귀하의 IP 주소"
+
+#: analyse_blocage_sites.php:87
+msgid "Heure de début"
+msgstr "시작 시간"
+
+#: analyse_blocage_sites.php:91
+msgid "Heure de fin"
+msgstr "종료 시간"
+
+#: analyse_blocage_sites.php:125
+msgid "Analyser"
+msgstr "분석"
+
+#: bandwidthd_annee.php:77 bandwidthd_annee_subnet.php:77
+msgid "Statistiques de l'année"
+msgstr "올해의 통계"
+
+#: bandwidthd_annee_subnet.php:77 bandwidthd_jour_subnet.php:77
+#: bandwidthd_mois_subnet.php:77 bandwidthd_semaine_subnet.php:77
+msgid "sous-réseau"
+msgstr "서브넷"
+
+#: bandwidthd_jour.php:77 bandwidthd_jour_subnet.php:77
+msgid "Statistiques de la journée"
+msgstr "오늘의 통계"
+
+#: bandwidthd_mois.php:77 bandwidthd_mois_subnet.php:77
+msgid "Statistiques du mois"
+msgstr "이달의 통계"
+
+#: bandwidthd_semaine.php:77 bandwidthd_semaine_subnet.php:77
+msgid "Statistiques de la semaine"
+msgstr "금주의 통계"
+
+#: changer-password.php:13
+msgid "Changer Mot de passe"
+msgstr "비밀번호 변경"
+
+#: changer-password.php:66
+msgid "Nouveau"
+msgstr "새로운"
+
+#: changer-password.php:69
+msgid "Confirmer"
+msgstr "확인"
+
+#: changer-password.php:72
+msgid "Ancien mot de passe"
+msgstr "이전 암호"
+
+#: changer-password.php:76
+msgid "Valider"
+msgstr "확인"
+
+#: config-backups-suppression.php:71
+msgid "Contenant les 3 dossiers"
+msgstr "3 개의 폴더가 들어 있습니다"
+
+#: config-filtres.php:173
+msgid "Fichiers"
+msgstr "파일"
+
+#: config-filtres.php:187
+msgid "Afficher aide"
+msgstr "도움말보기"
+
+#: config-filtres.php:198
+msgid "Sections"
+msgstr "섹션"
+
+#: config-filtres.php:208 config-filtres.php:286
+msgid "Nouvelle"
+msgstr "뉴스"
+
+#: config-filtres.php:211 config-filtres.php:289
+msgid "Appliquer"
+msgstr "적용"
+
+#: config-filtres.php:214 config-filtres.php:293
+msgid "Supprimer"
+msgstr "제거"
+
+#: config-filtres.php:218 config-filtres.php:221 config-filtres.php:299
+#: config-filtres.php:302
+msgid "Déplacer"
+msgstr "움직임"
+
+#: config-filtres.php:226 config-filtres.php:305
+msgid "Recherche doublons"
+msgstr "중복 검색"
+
+#: config-filtres.php:238
+msgid "Clés - Valeurs"
+msgstr "키 - 값"
+
+#: config-filtres.php:247
+msgid "Préfix"
+msgstr "접두사"
+
+#: config-filtres.php:259
+msgid "Clé"
+msgstr "키"
+
+#: config-filtres.php:264
+msgid "Valeur"
+msgstr "값"
+
+#: config-filtres.php:269
+msgid "Commentaire"
+msgstr "논평"
+
+#: config-filtres.php:278
+msgid "Ligne commentée"
+msgstr "주석 처리 된 행"
+
+#: config-filtres.php:317
+msgid "Fermer"
+msgstr "가까운"
+
+#: config-filtres.php:322
+msgid "Recherche globale des doublons"
+msgstr "중복 검색"
+
+#: config-internet.php:73 config-internet.php:116
+msgid "Configuration internet"
+msgstr "인터넷 구성"
+
+#: config-internet.php:147
+msgid "Tester un site"
+msgstr "사이트 테스트"
+
+#: config-internet.php:149
+msgid "Sélection"
+msgstr "선택"
+
+#: config-internet.php:151
+msgid "Saisir ou double-click"
+msgstr "입력 또는 더블 클릭"
+
+#: config-internet.php:172
+msgid "Vérifier filtrage DNS"
+msgstr "DNS 필터링 확인"
+
+#: config-internet.php:175
+msgid ""
+"La liste des sites est mise automatiquement à jour<br />si le site saisi "
+"n'est pas dans cette liste."
+msgstr ""
+"입력 한 사이트가이 목록에없는 경우 사이트 목록이 자동으로 업데이트됩니다."
+
+#: config-internet.php:181
+msgid "À vérifier avec un VRAI safeDNS ou autre..."
+msgstr ""
+"\\ n 복원을 요청하고 있습니다.\n"
+"\n"
+"그 보호..."
+
+#: config-internet.php:192
+msgid "Filtrage DNS"
+msgstr "DNS 필터링"
+
+#: config-internet.php:194 config-internet.php:241
+msgid "Gestion par"
+msgstr "관리 기준"
+
+#: config-internet.php:220 config-internet.php:223
+msgid "Serveur"
+msgstr "서버"
+
+#: config-internet.php:230
+msgid "IP dynamique ou fixe"
+msgstr "동적 또는 고정 IP"
+
+#: config-internet.php:232
+msgid "Adresse IP"
+msgstr "IP 주소"
+
+#: config-internet.php:235
+msgid "dynamique"
+msgstr "동적"
+
+#: config-internet.php:238
+msgid "fixe"
+msgstr "고정 된"
+
+#: config-internet.php:272
+msgid "Domaine enregistré"
+msgstr "등록 된 도메인"
+
+#: config-internet.php:287 config-reseau.php:184
+msgid "Enregistrer"
+msgstr "기록"
+
+#: config-reseau.php:69 config-reseau.php:115
+msgid "Configuration du réseau"
+msgstr "네트워크 구성"
+
+#: config-reseau.php:130
+msgid "Système"
+msgstr "체계"
+
+#: config-restauration-etc-usr.php:66 config-restauration-etc-usr.php:112
+msgid "Restauration de configuration système"
+msgstr "시스템 구성 복원"
+
+#: config-restauration-home.php:66
+msgid "Restauration de configuration idéfix"
+msgstr "Idéfix 구성 복원"
+
+#: config-restauration-home.php:112
+msgid "Restauration de configuration"
+msgstr "구성 복원"
+
+#: erreur.php:16
+msgid "Le serveur HTTP a compris la requête, mais refuse de la traiter."
+msgstr "HTTP 서버가 요청을 이해했지만이를 처리하는 것을 거부합니다."
+
+#: erreur.php:17
+msgid ""
+"Ce code est généralement utilisé lorsqu'un serveur ne souhaite pas indiquer "
+"pourquoi la requête a été rejetée, ou lorsque aucune autre réponse ne "
+"correspond (par exemple le serveur est un Intranet et seules les machines du "
+"réseau local sont autorisées à se connecter au serveur)."
+msgstr ""
+"이 코드는 일반적으로 서버가 요청이 거부 된 이유를 나타내지 않거나 다른 응답"
+"이 일치하지 않을 때 사용됩니다 (예 : 서버가 인트라넷이고 로컬 네트워크의 컴퓨"
+"터 만 서버에 연결할 수 있음) ."
+
+#: erreur.php:20
+msgid "Non trouvé"
+msgstr "찾을 수 없음"
+
+#: erreur.php:21
+msgid ""
+"Le serveur n'a rien trouvé qui corresponde à l'adresse (URI) demandée ( non "
+"trouvé )."
+msgstr "서버가 요청한 (URI) 주소 (찾지 못함)와 일치하는 것을 찾지 못했습니다."
+
+#: erreur.php:22
+msgid ""
+"Cela signifie que l'URL que vous avez tapée ou cliquée est mauvaise ou "
+"obsolète et ne correspond à aucun document existant sur le serveur (vous "
+"pouvez essayez de supprimer progressivement les composants de l'URL en "
+"partant de la fin pour éventuellement retrouver un chemin d'accès existant)."
+msgstr ""
+"즉, 입력하거나 클릭 한 URL이 잘못되었거나 오래되어 서버의 기존 문서와 일치하"
+"지 않습니다. URL의 구성 요소를 끝에서 점차 제거하여 결국 경로를 찾습니다. 기"
+"존 액세스)."
+
+#: erreur.php:32 erreur.php:34
+msgid "Retour à la"
+msgstr "위로"
+
+#: erreur.php:32
+msgid "page précédente"
+msgstr "이전 페이지"
+
+#: erreur.php:34
+msgid "page d'accueil"
+msgstr "홈페이지"
+
+#: erreur.php:45 erreur.php:81
+msgid "Page inaccessible"
+msgstr "액세스 할 수없는 페이지"
+
+#: halt-idefix.php:78
+msgid "Arrêter Idefix"
+msgstr "Idefix 중지"
+
+#: index.php:14
+msgid "Page d'accueil d'Idéfix"
+msgstr "Idéfix 홈페이지"
+
+#: index.php:50
+msgid "Bienvenue sur Idéfix !"
+msgstr "Idéfix 에 오신 것을 환영합니다 !"
+
+#: reboot-idefix.php:55
+msgid "Redémarrage"
+msgstr "다시 시작"
+
+#: reboot-idefix.php:78 visu-donnees-systeme.php:191
+msgid "Redémarrer Idefix"
+msgstr "다시 시작하십시오"
+
+#: update-config.php:14 update-config.php:55
+msgid "Mise à jour immédiate du filtre"
+msgstr "필터 즉시 업데이트"
+
+#: update-config.php:78
+msgid "Mettre à jour le filtre"
+msgstr "필터 업데이트"
+
+#: update-system.php:14
+msgid "Mise à jour immédiate du système"
+msgstr "시스템의 즉각적인 업데이트"
+
+#: update-system.php:55
+msgid "Mises à jour"
+msgstr "업데이트"
+
+#: update-system.php:92
+msgid "Mise à jour du système"
+msgstr "시스템 업데이트"
+
+#: update-system.php:106
+msgid "Mise à jour de l'interface graphique"
+msgstr "그래픽 인터페이스의 업데이트"
+
+#: visu-bandwidth.php:59
+msgid "Bande passante en temps réel"
+msgstr "실시간 대역폭"
+
+#: visu-bandwidth.php:82
+msgid "L'affichage n'est pas disponible car vous n'êtes pas sous Linux."
+msgstr "Linux를 실행하지 않으므로 디스플레이를 사용할 수 없습니다."
+
+#: visu-conf.php:42 visu-conf.php:78
+msgid "Visualisation des fichiers"
+msgstr "파일보기"
+
+#: visu-donnees-systeme.php:17
+msgid "Données système"
+msgstr "시스템 데이터"
+
+#: visu-service-ddclient.php:17 visu-service-ddclient.php:58
+msgid "Service ddclient"
+msgstr "ddclient 서비스"
+
+#: visu-service-dhcp.php:17 visu-service-dhcp.php:58
+msgid "Service DHCP"
+msgstr "DHCP 서비스"
+
+#: visu-service-iptables.php:17 visu-service-iptables.php:58
+msgid "Service iptables"
+msgstr "Iptables 서비스"
+
+#: visu-service-squid.php:17 visu-service-squid.php:58
+msgid "Service Squid"
+msgstr "Squid 서비스"
+
+#~ msgid "non présent"
+#~ msgstr "선물이 없다"
+
+#~ msgid "Différences détectées"
+#~ msgstr "차이점이 감지되었습니다"
+
+#~ msgid "Aucune différence trouvée"
+#~ msgstr "차이점을 찾지 못했습니다"
+
+#~ msgid "Fichier non traité"
+#~ msgstr "치료되지 않은 파일"
+
+#~ msgid "Restauration de la configuration"
+#~ msgstr "구성 복원"
+
+#~ msgid "Cette commande va être exécutée"
+#~ msgstr "이 명령은 실행될 것이다"
+
+#~ msgid "Mettre à jour le système"
+#~ msgstr "시스템 업데이트"
+
+#~ msgid "Commande exécutée"
+#~ msgstr "실행 된 명령"
+
+#~ msgid "automatique"
+#~ msgstr "자동적 인"
+
+#~ msgid "autre"
+#~ msgstr "다른"
+
+#~ msgid "aucun"
+#~ msgstr "아니오"
+
+#~ msgid "Sauvegarde"
+#~ msgstr "보호"
+
+#~ msgid "Purger les"
+#~ msgstr "퍼지"

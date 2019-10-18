@@ -1,0 +1,927 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-19 12:17+0200\n"
+"PO-Revision-Date: 2019-04-19 12:53+0200\n"
+"Last-Translator: Serge <xxx@xxx.com>\n"
+"Language-Team: \n"
+"Language: la\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ../../../../../../idefix_dev\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bandwidthd\n"
+"X-Poedit-SearchPathExcluded-1: bw\n"
+"X-Poedit-SearchPathExcluded-2: etc\n"
+"X-Poedit-SearchPathExcluded-3: home\n"
+"X-Poedit-SearchPathExcluded-4: tmp\n"
+"X-Poedit-SearchPathExcluded-5: txt\n"
+"X-Poedit-SearchPathExcluded-6: usr\n"
+"X-Poedit-SearchPathExcluded-7: usr - 1.0.11\n"
+"X-Poedit-SearchPathExcluded-8: V\n"
+"X-Poedit-SearchPathExcluded-9: var\n"
+"X-Poedit-SearchPathExcluded-10: _aj.php\n"
+"X-Poedit-SearchPathExcluded-11: _ajax_config_backups_suppression.php\n"
+"X-Poedit-SearchPathExcluded-12: _ajax_visu_donnees_systeme_2.php\n"
+"X-Poedit-SearchPathExcluded-13: _analyse_blocage_sites - datatable.php\n"
+"X-Poedit-SearchPathExcluded-14: _confix.php\n"
+"X-Poedit-SearchPathExcluded-15: _visu-donnees-systeme-v1.php\n"
+
+#: $/classesphp/analyseBackups.php:218
+msgid "Aucune différence détectée sur les fichiers de ce dossier."
+msgstr "Non nequiquam detecta fraude in files differences, qui in folder."
+
+#: $/classesphp/analyseBackups.php:231
+msgid "Restaurer en date du"
+msgstr "Datas restituet"
+
+#: $/classesphp/analyseBackups.php:343 $/includes/fonctions12.php:76
+#: ajax_config_backups_suppression.php:26
+msgid "Impossible de se connecter au serveur"
+msgstr "Potest non coniungere ad server"
+
+#: $/classesphp/analyseBackups.php:349 $/includes/fonctions12.php:82
+#: ajax_config_backups_suppression.php:32
+msgid "La connexion FTP a échoué."
+msgstr "Amet in nexu defecit."
+
+#: $/classesphp/analyseBackups.php:350 $/includes/fonctions12.php:83
+#: ajax_config_backups_suppression.php:33
+msgid "Tentative de connexion au serveur"
+msgstr "Conatur ad coniungere servo"
+
+#: $/classesphp/analyseBackups.php:351 $/includes/fonctions12.php:84
+#: ajax_config_backups_suppression.php:34
+msgid "pour l'utilisateur"
+msgstr "nam usor"
+
+#: $/classesphp/analyseBackups.php:485
+msgid "ligne"
+msgstr "acies"
+
+#: $/classesphp/analyseBackups.php:485
+msgid "Sauvegarde du"
+msgstr "Et salvis"
+
+#: $/classesphp/analyseBackups.php:541
+msgid "Ne sont pas affichés"
+msgstr "Non visibiles sunt"
+
+#: $/classesphp/analyseBackups.php:543
+msgid "les sauvegardes qui sont identiques entre elles"
+msgstr "Sunt eadem inter tergum"
+
+#: $/classesphp/analyseBackups.php:544
+msgid "les fichiers actuels qui sont identiques avec ceux de la sauvegarde"
+msgstr "re cum illis in tergum lima ut es identical"
+
+#: $/classesphp/analyseBackups.php:545
+msgid "les lignes qui sont identiques pour les fichiers finalement retenus"
+msgstr "Denique idem electus in lima tractus"
+
+#: $/classesphp/analyseBackups.php:553
+msgid "Attention !"
+msgstr "Attendentes !"
+
+#: $/classesphp/analyseBackups.php:555
+msgid ""
+"La restauration porte sur <u>l'ensemble des fichiers</u> contenus dans "
+"l'archive ZIP"
+msgstr "Restitutio est de <u> all files </u> continebat in Numeri archive"
+
+#: $/classesphp/analyseBackups.php:560
+msgid "Fichiers exclus"
+msgstr "Excluduntur files"
+
+#: $/classesphp/analyseBackups.php:570
+msgid "Extensions exclues"
+msgstr "Excluduntur extensiones"
+
+#: $/classesphp/analyseBackups.php:714 $/classesphp/analyseBackups.php:730
+msgid "absent"
+msgstr "absit"
+
+#: $/classesphp/analyseBackups.php:861 $/classesphp/analyseBackups.php:878
+#: $/includes/fonctions12.php:13 $/includes/fonctions12.php:31
+msgid "Impossible d'accéder aux sauvegardes"
+msgstr "Accedere non posset ad tergum"
+
+#: $/classesphp/analyseBackups.php:861 $/includes/fonctions12.php:13
+msgid "Le fichier"
+msgstr "Lima"
+
+#: $/classesphp/analyseBackups.php:861 $/includes/fonctions12.php:13
+msgid "est inexistant"
+msgstr "quae nulla est"
+
+#: $/classesphp/analyseBackups.php:878 $/includes/fonctions12.php:31
+msgid "Pas de compte FTP disponible dans le fichier"
+msgstr "Non propter praesto file amet"
+
+#: $/includes/aide3.php:9
+msgid "Crée une nouvelle section du fichier sélectionné."
+msgstr "Creates a sectione per file lectus."
+
+#: $/includes/aide3.php:10
+msgid "Applique votre modification ou la création d'une nouvelle section."
+msgstr "Aut ex nova creatio mutatio dici tua sectionem."
+
+#: $/includes/aide3.php:11
+msgid "Supprime une section ET toutes les lignes qu'elle contient."
+msgstr "Pars lineae habet tollit omnem."
+
+#: $/includes/aide3.php:12
+msgid "Déplace la section sélectionnée vers le haut."
+msgstr "Lego partem movetur sursum."
+
+#: $/includes/aide3.php:13
+msgid "Déplace la section sélectionnée vers le bas."
+msgstr "Lego partem moveri deorsum."
+
+#: $/includes/aide3.php:14
+msgid "Recherche les doublons sur le nom des sections."
+msgstr "Quaerere duplicates nomen sectiones."
+
+#: $/includes/aide3.php:16
+msgid "Mettre ou non cette ligne complètement en commentaire."
+msgstr "Pone hic plene recta, aut non comment."
+
+#: $/includes/aide3.php:17
+msgid "Saisir ou modifier le contenu de la clé."
+msgstr "Intra clavem vel mutare, quoad suum obiectum."
+
+#: $/includes/aide3.php:18
+msgid "Saisir ou modifier le contenu de la valeur."
+msgstr ""
+"Intra valorem\n"
+" vel mutare, quoad suum obiectum."
+
+#: $/includes/aide3.php:19
+msgid "Ajouter ou non un commentaire pour cette ligne."
+msgstr "Non addam hac Reviews."
+
+#: $/includes/aide3.php:20
+msgid "Crée une nouvelle ligne."
+msgstr "Novis creat."
+
+#: $/includes/aide3.php:21
+msgid "Applique votre modification ou la création d'une nouvelle ligne."
+msgstr "Mutationes vel novis creandis intenderis."
+
+#: $/includes/aide3.php:22
+msgid "Supprime la ligne sélectionnée."
+msgstr "Delet delectis recta."
+
+#: $/includes/aide3.php:23
+msgid "Recherche les éventuels doublons sur les lignes de la section en cours."
+msgstr "Quaerere quis in duplici exemplari ordines erant in current sectionem."
+
+#: $/includes/aide3.php:24
+msgid "Déplace la ligne sélectionnée vers le haut."
+msgstr "Aciem movet lectus."
+
+#: $/includes/aide3.php:25
+msgid "Déplace la ligne sélectionnée vers le bas."
+msgstr "Delegit et aciem movet."
+
+#: $/includes/aide3.php:26
+msgid ""
+"Effectue une recherche globale de tous les doublons éventuels.&lt;br />&nbsp;"
+"&lt;br />Pour chaque section de chaque fichier."
+msgstr ""
+"Fac quaerere a global omnium fieri potest effingo. & Lt; br /> & nbsp; & Lt; "
+"br /> pro se quisque file sectione."
+
+#: $/includes/alert.php:14 ajax_calcul_infos_reseau.php:177 erreur.php:95
+msgid "Erreur"
+msgstr "Error"
+
+#: $/includes/alert.php:16
+msgid ""
+"Aucun doublon trouvé\n"
+"sur les sections"
+msgstr ""
+"Effingo non inveni\n"
+"in sectiones"
+
+#: $/includes/alert.php:17
+msgid ""
+"Doublons trouvés\n"
+"sur les sections"
+msgstr ""
+"Effingo fundare\n"
+"in sectiones"
+
+#: $/includes/alert.php:18
+msgid "Compléter votre saisie."
+msgstr "Complete ingressum tuum."
+
+#: $/includes/alert.php:19
+msgid "Recherche de doublons sur les lignes"
+msgstr "Quaerere per lineas pro effingo"
+
+#: $/includes/alert.php:20
+msgid "Aucun trouvé"
+msgstr "Inventus est nemo"
+
+#: $/includes/alert.php:21
+msgid "trouvés"
+msgstr "fundare"
+
+#: $/includes/alert.php:22
+msgid "trouvé sur les URLs"
+msgstr "fundare su URL"
+
+#: $/includes/alert.php:23
+msgid "trouvés sur les URLs"
+msgstr "fundares su URL"
+
+#: $/includes/alert.php:25
+msgid "Caractère interdit."
+msgstr "Mores prohibitus."
+
+#: $/includes/alert.php:27 $/includes/alert.php:32
+msgid "Veuillez compléter les champs suivants"
+msgstr "Placere perficere sequentibus agri"
+
+#: $/includes/alert.php:28
+msgid "Le port doit être inférieur à 65535 !"
+msgstr "A portum est non minus quam 65535 !"
+
+#: $/includes/alert.php:29
+msgid "Veuillez corriger l'adresse IP"
+msgstr "IP oratio bene placent"
+
+#: $/includes/alert.php:31
+msgid "Erreur : choix non implémenté."
+msgstr "Error: non implementa arbitrium."
+
+#: $/includes/alert.php:34
+msgid "Attention"
+msgstr "Attendentes"
+
+#: $/includes/alert.php:35
+msgid "La modification des paramètres FTP est critique"
+msgstr "Mutantur occasus sit amet discrimine"
+
+#: $/includes/alert.php:36
+msgid "Elle va entraîner l'effacement total"
+msgstr "Et sic ducunt ad totalis eliminanda"
+
+#: $/includes/alert.php:37
+msgid "de la configuration actuelle"
+msgstr "hodiernam configuratione"
+
+#: $/includes/alert.php:38
+msgid "Continuer ?"
+msgstr "Permanere ?"
+
+#: $/includes/alert.php:41
+msgid "Redémarrage en cours"
+msgstr "Riavvia in corso"
+
+#: $/includes/alert.php:42
+msgid "Arrêt en cours"
+msgstr "Restitit"
+
+#: $/includes/alert.php:44
+msgid "Vous demandez la restauration depuis"
+msgstr "Petis enim restitutio"
+
+#: $/includes/alert.php:45
+msgid "la sauvegarde du"
+msgstr "iia tuto collocanda,"
+
+#: $/includes/alert.php:46
+msgid "Vous confirmer ?"
+msgstr "Constituo tibi ?"
+
+#: $/includes/bandwidthd_menu.php:3 $/includes/bandwidthd_menu.php:21
+msgid "Journée"
+msgstr "Dies"
+
+#: $/includes/bandwidthd_menu.php:7 $/includes/bandwidthd_menu.php:25
+msgid "Semaine"
+msgstr "Septem"
+
+#: $/includes/bandwidthd_menu.php:11 $/includes/bandwidthd_menu.php:29
+msgid "Mois"
+msgstr "Mensis"
+
+#: $/includes/bandwidthd_menu.php:15 $/includes/bandwidthd_menu.php:33
+msgid "Année"
+msgstr "Annos"
+
+#: $/includes/bandwidthd_menu.php:20
+msgid "Sous-réseau"
+msgstr "Sottorete"
+
+#: $/includes/chaines7.php:8 config-internet.php:137 config-internet.php:266
+msgid "Identifiant"
+msgstr "Accesso"
+
+#: $/includes/chaines7.php:9 changer-password.php:64 config-internet.php:141
+#: config-internet.php:269
+msgid "Mot de passe"
+msgstr "Password"
+
+#: $/includes/deconnexion.php:2
+msgid "Se déconnecter de l'interface"
+msgstr "Disconnetti dall'interfaccia"
+
+#: $/includes/ips_dynamiques.php:8 $/includes/ips_dynamiques.php:39
+msgid "Automatique"
+msgstr "Automatic"
+
+#: $/includes/ips_dynamiques.php:26
+msgid "Autre"
+msgstr "Alium"
+
+#: $/includes/ips_dynamiques.php:32
+msgid "Aucun"
+msgstr "Nihil"
+
+#: $/includes/menu.php:3
+msgid "Tableaux de bord"
+msgstr "Cruscotti"
+
+#: $/includes/menu.php:7 visu-donnees-systeme.php:64
+msgid "État du système"
+msgstr "Status ratio"
+
+#: $/includes/menu.php:8 visu-bandwidth.php:16
+msgid "Bande passante"
+msgstr "Larghezza di banda"
+
+#: $/includes/menu.php:9
+msgid "Activité"
+msgstr "Actio"
+
+#: $/includes/menu.php:9
+msgid "réseau"
+msgstr "rete"
+
+#: $/includes/menu.php:10 visu-users-connected.php:17
+#: visu-users-connected.php:58
+msgid "Utilisateurs connectés"
+msgstr "Utenti connessi"
+
+#: $/includes/menu.php:14
+msgid "Fonctions de base"
+msgstr "Munera di base"
+
+#: $/includes/menu.php:17
+msgid "Mise à jour FTP du filtre"
+msgstr "Aggiornamento FTP del filtro"
+
+#: $/includes/menu.php:18 reboot-idefix.php:14
+msgid "Redémarrage d'Idéfix"
+msgstr "Riavvio Idéfix"
+
+#: $/includes/menu.php:19 changer-password.php:49
+msgid "Changement du mot de passe"
+msgstr "Mutantur password"
+
+#: $/includes/menu.php:23
+msgid "Fonctions avancées"
+msgstr "Provectis"
+
+#: $/includes/menu.php:26 config-filtres.php:109 config-filtres.php:158
+msgid "Configuration des filtres"
+msgstr "Configurazione del vestibumum"
+
+#: $/includes/menu.php:27
+msgid "Configuration Réseau"
+msgstr "Configurazione di rete"
+
+#: $/includes/menu.php:28
+msgid "Configuration Internet"
+msgstr "Configurazione Internet"
+
+#: $/includes/menu.php:29
+msgid "Mises à jour Système &bull; Interface"
+msgstr "Ratio Updates &bull; interface"
+
+#: $/includes/menu.php:30 halt-idefix.php:14 halt-idefix.php:55
+msgid "Arrêt d'Idéfix"
+msgstr "Fermata Idéfix"
+
+#: $/includes/menu.php:34
+msgid "Restauration"
+msgstr "Restitutio"
+
+#: $/includes/menu.php:37
+msgid "Configuration Idéfix"
+msgstr "Idefix configuratione"
+
+#: $/includes/menu.php:38
+msgid "Configuration Système"
+msgstr "Ratio configuratione"
+
+#: $/includes/menu.php:42
+msgid "Gestion"
+msgstr "Procuratio"
+
+#: $/includes/menu.php:45 config-backups-suppression.php:15
+#: config-backups-suppression.php:57
+msgid "Suppression de sauvegardes"
+msgstr "Deletis tergum"
+
+#: $/includes/menu.php:49
+msgid "Diagnostics"
+msgstr "Diagnostic"
+
+#: $/includes/menu.php:52 analyse_blocage_sites.php:16
+#: analyse_blocage_sites.php:58
+msgid "Analyse des blocages de sites"
+msgstr "De analysis situs blockings"
+
+#: $/includes/menu.php:56
+msgid "Informations techniques"
+msgstr "Technica notitia"
+
+#: $/includes/menu.php:59
+msgid "Visualiser les fichiers"
+msgstr "Visualizza i file"
+
+#: $/includes/menu.php:60 $/includes/menu.php:61 $/includes/menu.php:62
+#: $/includes/menu.php:63
+msgid "État du service"
+msgstr "Status servicio"
+
+#: $/includes/version.php:3
+msgid "Version"
+msgstr "Versione"
+
+#: S.php:14
+msgid "Non implémenté"
+msgstr "Non implemented"
+
+#: S.php:47 acces.php:41 analyse_blocage_sites.php:50 bandwidthd_annee.php:52
+#: bandwidthd_annee_subnet.php:52 bandwidthd_jour.php:52
+#: bandwidthd_jour_subnet.php:52 bandwidthd_mois.php:52
+#: bandwidthd_mois_subnet.php:52 bandwidthd_semaine.php:52
+#: bandwidthd_semaine_subnet.php:52 changer-password.php:41
+#: config-backups-suppression.php:49 config-filtres.php:150
+#: config-internet.php:108 config-reseau.php:107
+#: config-restauration-etc-usr.php:104 config-restauration-home.php:104
+#: erreur.php:73 halt-idefix.php:47 index.php:42 reboot-idefix.php:47
+#: update-config.php:47 update-system.php:47 visu-bandwidth.php:51
+#: visu-conf.php:70 visu-donnees-systeme.php:56 visu-service-ddclient.php:50
+#: visu-service-dhcp.php:50 visu-service-iptables.php:50
+#: visu-service-squid.php:50 visu-users-connected.php:50
+msgid "Page d'accueil"
+msgstr "Pagina domum"
+
+#: S.php:73
+msgid "Non implémenté."
+msgstr "Non implementato."
+
+#: acces.php:14
+msgid "Accès"
+msgstr "Aditum"
+
+#: acces.php:49
+msgid "Contrôle d'accès"
+msgstr "Accessum imperium"
+
+#: acces.php:64
+msgid "S'identifier"
+msgstr "Entra"
+
+#: acces.php:67
+msgid "Entrer mot de passe"
+msgstr "Inserire la password"
+
+#: acces.php:71
+msgid "Connexion"
+msgstr "Entra"
+
+#: ajax_calcul_infos_reseau.php:183
+msgid ""
+"Le calcul ne peux pas avoir lieu car le champ IP est vide ou non valide."
+msgstr "Quod fieri non potest ratio IP cellula vacua vel nulla."
+
+#: ajax_calcul_infos_reseau.php:185
+msgid ""
+"Le calcul ne peux pas avoir lieu car le champ MASK est vide ou non valide."
+msgstr "Quod fieri non potest ratio MASK cellula vacua vel nulla."
+
+#: ajax_commande_py.php:23
+msgid "À implémenter."
+msgstr "Ad effectum deducendi."
+
+#: ajax_commande_py.php:42 visu-service-ddclient.php:90
+#: visu-service-dhcp.php:90 visu-service-iptables.php:90
+#: visu-service-squid.php:90 visu-users-connected.php:90
+msgid ""
+"Cette commande ne peut pas être exécutée car vous n'êtes pas sous Linux."
+msgstr "Quia non potest duci praecipit Linux."
+
+#: ajax_config_backups_suppression.php:53
+#: ajax_config_backups_suppression.php:69
+msgid "Fichiers de backup supprimés"
+msgstr "Fichiers de backup supprimés"
+
+#: ajax_config_backups_suppression.php:65
+#: ajax_config_backups_suppression.php:74
+msgid "Rafraîchir"
+msgstr "Frigus"
+
+#: ajax_config_restauration.php:34
+msgid "Restauration effectuée."
+msgstr "Restitutio facienda."
+
+#: ajax_ecrire_modifications.php:24 config-filtres.php:82
+msgid "Hors section"
+msgstr "De sectione"
+
+#: ajax_get_contenu_conf.php:19 visu-conf.php:28
+msgid "Ce fichier n'a pas été trouvé."
+msgstr "Hoc file non inveni."
+
+#: ajax_mdp_change.php:31
+msgid "Le nouveau mot de passe a bien été enregistré."
+msgstr "Nuovo password quae servatae sunt."
+
+#: ajax_mdp_change.php:33
+msgid "Modification refusée.<br />Votre ancien mot de passe est invalide."
+msgstr "Mutantur negavit. <br /> vetus password invalidum est."
+
+#: ajax_write_conf_internet.php:121
+msgid ""
+"L'enregistrement ne peut pas être effectué car vous n'êtes pas sous Linux."
+msgstr "Book fieri non potest, quia non estis Linux."
+
+#: ajax_write_conf_reseau.php:151
+msgid "Enregistrement effectué."
+msgstr "Cum gessit."
+
+#: analyse_blocage_sites.php:81
+msgid "Votre adresse IP"
+msgstr "IP oratio tua"
+
+#: analyse_blocage_sites.php:87
+msgid "Heure de début"
+msgstr "Satus tempus"
+
+#: analyse_blocage_sites.php:91
+msgid "Heure de fin"
+msgstr "Finis tempus"
+
+#: analyse_blocage_sites.php:125
+msgid "Analyser"
+msgstr "Analyze"
+
+#: bandwidthd_annee.php:77 bandwidthd_annee_subnet.php:77
+msgid "Statistiques de l'année"
+msgstr "Statistics anni"
+
+#: bandwidthd_annee_subnet.php:77 bandwidthd_jour_subnet.php:77
+#: bandwidthd_mois_subnet.php:77 bandwidthd_semaine_subnet.php:77
+msgid "sous-réseau"
+msgstr "sottorete"
+
+#: bandwidthd_jour.php:77 bandwidthd_jour_subnet.php:77
+msgid "Statistiques de la journée"
+msgstr "Statistics diei"
+
+#: bandwidthd_mois.php:77 bandwidthd_mois_subnet.php:77
+msgid "Statistiques du mois"
+msgstr "Mense Statistics"
+
+#: bandwidthd_semaine.php:77 bandwidthd_semaine_subnet.php:77
+msgid "Statistiques de la semaine"
+msgstr "Una sabbatorum statistics"
+
+#: changer-password.php:13
+msgid "Changer Mot de passe"
+msgstr "Mutare Password"
+
+#: changer-password.php:66
+msgid "Nouveau"
+msgstr "Novum"
+
+#: changer-password.php:69
+msgid "Confirmer"
+msgstr "Constituo"
+
+#: changer-password.php:72
+msgid "Ancien mot de passe"
+msgstr "Pristini password"
+
+#: changer-password.php:76
+msgid "Valider"
+msgstr "Selige"
+
+#: config-backups-suppression.php:71
+msgid "Contenant les 3 dossiers"
+msgstr "Quibus III records"
+
+#: config-filtres.php:173
+msgid "Fichiers"
+msgstr "File"
+
+#: config-filtres.php:187
+msgid "Afficher aide"
+msgstr "Mostra auxilium"
+
+#: config-filtres.php:198
+msgid "Sections"
+msgstr "Sectiones"
+
+#: config-filtres.php:208 config-filtres.php:286
+msgid "Nouvelle"
+msgstr "Nuntium"
+
+#: config-filtres.php:211 config-filtres.php:289
+msgid "Appliquer"
+msgstr "Adhibere"
+
+#: config-filtres.php:214 config-filtres.php:293
+msgid "Supprimer"
+msgstr "Rimuovere"
+
+#: config-filtres.php:218 config-filtres.php:221 config-filtres.php:299
+#: config-filtres.php:302
+msgid "Déplacer"
+msgstr "Spostare"
+
+#: config-filtres.php:226 config-filtres.php:305
+msgid "Recherche doublons"
+msgstr "Cerca duplicati"
+
+#: config-filtres.php:238
+msgid "Clés - Valeurs"
+msgstr "Claves - Pretio"
+
+#: config-filtres.php:247
+msgid "Préfix"
+msgstr "Praefigunt"
+
+#: config-filtres.php:259
+msgid "Clé"
+msgstr "Clavem"
+
+#: config-filtres.php:264
+msgid "Valeur"
+msgstr "Valorem"
+
+#: config-filtres.php:269
+msgid "Commentaire"
+msgstr "Annotavo"
+
+#: config-filtres.php:278
+msgid "Ligne commentée"
+msgstr "Linea annotavit"
+
+#: config-filtres.php:317
+msgid "Fermer"
+msgstr "Prope"
+
+#: config-filtres.php:322
+msgid "Recherche globale des doublons"
+msgstr "Globale pro effingo quaerere"
+
+#: config-internet.php:73 config-internet.php:116
+msgid "Configuration internet"
+msgstr "Configurazione Internet"
+
+#: config-internet.php:147
+msgid "Tester un site"
+msgstr "Tendo sedem"
+
+#: config-internet.php:149
+msgid "Sélection"
+msgstr "Legio"
+
+#: config-internet.php:151
+msgid "Saisir ou double-click"
+msgstr "Intra sive o fai doppio clic"
+
+#: config-internet.php:172
+msgid "Vérifier filtrage DNS"
+msgstr "Reprehendo DNS eliquare"
+
+#: config-internet.php:175
+msgid ""
+"La liste des sites est mise automatiquement à jour<br />si le site saisi "
+"n'est pas dans cette liste."
+msgstr ""
+"Et statim vienne agiornato album of sites quod non est ingressus <br /> "
+"situs in hac list."
+
+#: config-internet.php:181
+msgid "À vérifier avec un VRAI safeDNS ou autre..."
+msgstr "In reprehendo cum ipsa safeDNS vel ..."
+
+#: config-internet.php:192
+msgid "Filtrage DNS"
+msgstr "Eliquare DNS"
+
+#: config-internet.php:194 config-internet.php:241
+msgid "Gestion par"
+msgstr "Procuratio"
+
+#: config-internet.php:220 config-internet.php:223
+msgid "Serveur"
+msgstr "Servo"
+
+#: config-internet.php:230
+msgid "IP dynamique ou fixe"
+msgstr "IP admodum infixa"
+
+#: config-internet.php:232
+msgid "Adresse IP"
+msgstr "Oratio IP"
+
+#: config-internet.php:235
+msgid "dynamique"
+msgstr "dinamico"
+
+#: config-internet.php:238
+msgid "fixe"
+msgstr "fixum"
+
+#: config-internet.php:272
+msgid "Domaine enregistré"
+msgstr "Dominio descripserunt"
+
+#: config-internet.php:287 config-reseau.php:184
+msgid "Enregistrer"
+msgstr "Registrare"
+
+#: config-reseau.php:69 config-reseau.php:115
+msgid "Configuration du réseau"
+msgstr "Configurazione di rete"
+
+#: config-reseau.php:130
+msgid "Système"
+msgstr "Sistema"
+
+#: config-restauration-etc-usr.php:66 config-restauration-etc-usr.php:112
+msgid "Restauration de configuration système"
+msgstr "Ratio Restituo"
+
+#: config-restauration-home.php:66
+msgid "Restauration de configuration idéfix"
+msgstr "Idefix restitutio configuratione"
+
+#: config-restauration-home.php:112
+msgid "Restauration de configuration"
+msgstr "Configuratione restituet"
+
+#: erreur.php:16
+msgid "Le serveur HTTP a compris la requête, mais refuse de la traiter."
+msgstr ""
+"HTTP est petitio intellexerunt de servo, sed negat vitae adiunctis commisso."
+
+#: erreur.php:17
+msgid ""
+"Ce code est généralement utilisé lorsqu'un serveur ne souhaite pas indiquer "
+"pourquoi la requête a été rejetée, ou lorsque aucune autre réponse ne "
+"correspond (par exemple le serveur est un Intranet et seules les machines du "
+"réseau local sont autorisées à se connecter au serveur)."
+msgstr ""
+"Questo codice viene solitamente utilizzato quando un server non vuole "
+"indicare il motivo per il quale la richiesta è stata rifiutata o quando "
+"nessun'altra risposta corrisponde (ad esempio il server è una Intranet e "
+"solo le macchine sulla rete locale possono connettersi al server) ."
+
+#: erreur.php:20
+msgid "Non trouvé"
+msgstr "Non inveni"
+
+#: erreur.php:21
+msgid ""
+"Le serveur n'a rien trouvé qui corresponde à l'adresse (URI) demandée ( non "
+"trouvé )."
+msgstr ""
+"Quid invenisti de servo non matching inscriptione (URI) (non invenitur)."
+
+#: erreur.php:22
+msgid ""
+"Cela signifie que l'URL que vous avez tapée ou cliquée est mauvaise ou "
+"obsolète et ne correspond à aucun document existant sur le serveur (vous "
+"pouvez essayez de supprimer progressivement les composants de l'URL en "
+"partant de la fin pour éventuellement retrouver un chemin d'accès existant)."
+msgstr ""
+"Ciò significa che l'URL digitato o cliccato è scadente o non aggiornato e "
+"non corrisponde a nessun documento esistente sul server (puoi provare a "
+"rimuovere i componenti dell'URL gradualmente dalla fine per trovare infine "
+"un percorso verso accesso esistente)."
+
+#: erreur.php:32 erreur.php:34
+msgid "Retour à la"
+msgstr "Ritorno al"
+
+#: erreur.php:32
+msgid "page précédente"
+msgstr "pagina precedente"
+
+#: erreur.php:34
+msgid "page d'accueil"
+msgstr "pagina domum"
+
+#: erreur.php:45 erreur.php:81
+msgid "Page inaccessible"
+msgstr "Page inhabitat inaccessibilem"
+
+#: halt-idefix.php:78
+msgid "Arrêter Idefix"
+msgstr "Stop Idefix"
+
+#: index.php:14
+msgid "Page d'accueil d'Idéfix"
+msgstr "Domus Idéfix"
+
+#: index.php:50
+msgid "Bienvenue sur Idéfix !"
+msgstr "Gratissimum Idéfix !"
+
+#: reboot-idefix.php:55
+msgid "Redémarrage"
+msgstr "Nuovo satus-sursum"
+
+#: reboot-idefix.php:78 visu-donnees-systeme.php:191
+msgid "Redémarrer Idefix"
+msgstr "Initium Idefix"
+
+#: update-config.php:14 update-config.php:55
+msgid "Mise à jour immédiate du filtre"
+msgstr "Immediato aggiornamento del filtro"
+
+#: update-config.php:78
+msgid "Mettre à jour le filtre"
+msgstr "Filtro di aggiornamento"
+
+#: update-system.php:14
+msgid "Mise à jour immédiate du système"
+msgstr "Immediato aggiornamento del sistema"
+
+#: update-system.php:55
+msgid "Mises à jour"
+msgstr "updates"
+
+#: update-system.php:92
+msgid "Mise à jour du système"
+msgstr "Adaequationis ad systema"
+
+#: update-system.php:106
+msgid "Mise à jour de l'interface graphique"
+msgstr "Updated GUI"
+
+#: visu-bandwidth.php:59
+msgid "Bande passante en temps réel"
+msgstr "Larghezza di banda in tempo reale"
+
+#: visu-bandwidth.php:82
+msgid "L'affichage n'est pas disponible car vous n'êtes pas sous Linux."
+msgstr "Quia non ad ostentationem praesto sunt Linux."
+
+#: visu-conf.php:42 visu-conf.php:78
+msgid "Visualisation des fichiers"
+msgstr "Visualizzazione dei file"
+
+#: visu-donnees-systeme.php:17
+msgid "Données système"
+msgstr "Dati di sistema"
+
+#: visu-service-ddclient.php:17 visu-service-ddclient.php:58
+msgid "Service ddclient"
+msgstr "Officium ddclient"
+
+#: visu-service-dhcp.php:17 visu-service-dhcp.php:58
+msgid "Service DHCP"
+msgstr "Officium DHCP"
+
+#: visu-service-iptables.php:17 visu-service-iptables.php:58
+msgid "Service iptables"
+msgstr "Officium iptables"
+
+#: visu-service-squid.php:17 visu-service-squid.php:58
+msgid "Service Squid"
+msgstr "Officium Squid"
+
+#~ msgid "automatique"
+#~ msgstr "automatic"
+
+#~ msgid "autre"
+#~ msgstr "alium"
+
+#~ msgid "aucun"
+#~ msgstr "nihil"
+
+#~ msgid "Cette commande va être exécutée"
+#~ msgstr "Et hoc mandatum fuero conplebitur"
+
+#~ msgid "Mettre à jour le système"
+#~ msgstr "Aggiorna il sistema"
+
+#~ msgid "Commande exécutée"
+#~ msgstr "Imperium supplicium"

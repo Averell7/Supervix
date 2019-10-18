@@ -1,0 +1,62 @@
+****************************
+Idédix
+Configurateur embarqué
+Auteur : SP
+****************************
+
+
+---------------------------
+Version 1.4.1b - 03-04-2019
+---------------------------
+
+Affichage graphique de l'état du système
+Réorganisation des styles CSS
+Renommage de certains fichiers
+Renommage de certaines variables
+Icônes locked-unlocked
+
+--------------------------
+Version 1.3.2 - 26-03-2019
+--------------------------
+
+Correctifs sur les scripts de restauration
+
+Ajout  de l'exclusion de certaines extensions dans la comparaison de fichiers
+
+--------------------------
+Version 1.3.1 - 09-03-2019
+--------------------------
+
+Correctifs
+
+Configuration internet : /config-internet.php
+Filtrage DNS : la sélection sur "Aucun" fait apparaître les deux contrôles pour entrer manuellement les adresses des serveurs DNS, en mettant par défaut 8.8.8.8 pour le premier.
+
+Classe analyseBackups.php : modification de la commande de copie des backups dans le dossier tmp lorsqu'on est sous Linux.
+
+------------------------
+Version 1.3 - 05-03-2019
+------------------------
+
+Ajout de fonctionnalités
+
+1. Possibilité de suppression des backups stockés dans le dossier /var/spool/idefix/backups/
+
+2. Restauration de la configuration Idéfix depuis une sauvegarde
+		- Comparatif préalable ligne par ligne du contenu des fichiers actuels avec les fichiers de chaque backup. Seules les lignes différentes sont affichées
+		- Seuls les backups concernés sont affichés
+		- Les backups identiques entreeux ne sont pas affichés
+		 
+3. Restauration de la configuration Système depuis une sauvegarde
+		- Comparatif préalable ligne par ligne du contenu des fichiers actuels avec les fichiers de chaque backup. Seules les lignes différentes sont affichées
+		- Seuls les backups concernés sont affichés
+		- Les backups identiques entreeux ne sont pas affichés
+
+NB.
+
+a) Il est possible de basculer l'utilisation de ces fonctionnalités, directement sur les backups du serveur ftp.online.net en modifiant le paramètre BACKUP_PLACE dans le fichier init.php : "locales" | "ftp"
+
+b) Il est possible de modifier le nombre limite de backups à traiter en modifiant le paramètre NB_BACKUP_DESIRES dans le fichier init.php
+
+
+

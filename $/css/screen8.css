@@ -1,0 +1,66 @@
+/*------------------------------------*\
+  screen8.css
+	----------
+	Configurateur Idéfix
+	Copyright © 2019
+\*------------------------------------*/
+	
+/* --------------------------------------------------------- container */
+
+.container {
+	grid-template-columns: 240px 80px 1fr 100px;
+	grid-template-areas:
+                      "menu0  	header0   header		logo"
+                      "menu	    colonne_1	colonne_1 colonne_1"
+                      "notes   	footer   	footer	 	footer";
+}
+
+/* ------------------------------------------------------------- Colonne 1 */
+
+.colonne_1 {
+  padding-top:2rem;
+}
+
+.colonne_1 fieldset {
+  width:650px;
+  margin:auto;
+}
+.colonne_1 fieldset p {
+  text-align:center;
+  font-size:0.9rem;
+  margin: 1rem 0;
+}
+.colonne_1 p.rouge {
+	color:#BF0000;
+	background-color:#FFFFF0;
+	border-radius:5px;
+	margin:auto;
+	padding-bottom:2px;
+	border:1px solid #BF0000;
+	padding:0.3rem 0 0.5rem 0;
+}
+.colonne_1 p.vert {
+	color:#008000;
+	background-color:#F8FFF8;
+	border-radius:5px;
+	margin:auto;
+	padding-bottom:2px;
+	border:1px solid #008000;
+	padding:0.3rem 0.5rem 0.5rem 0.5rem;
+	text-align:left;
+}
+.colonne_1 p.vert img {
+	vertical-align: bottom;
+}
+.colonne_1 div {
+	text-align		: center;
+}
+.colonne_1 button {
+	display:inline-block;
+	/*margin-bottom:1rem;*/
+	margin:1rem auto;
+}
+#result {
+	overflow-x:auto;
+}
+/* -------------------------------------------------------------------- */

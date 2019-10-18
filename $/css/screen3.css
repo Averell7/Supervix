@@ -1,0 +1,279 @@
+/*------------------------------------*\
+  screen3css
+	----------
+	Configurateur des filtres
+	Copyright © 2019
+\*------------------------------------*/
+	
+/* --------------------------------------------------------- container */
+
+.container {
+	grid-template-columns: 240px 80px 50px 250px 1fr	100px;
+	grid-template-areas:
+                      "menu0  header0  	header  	header  	header			logo"
+  										"menu   colonne_1 colonne_1	colonne_2	colonne_3		colonne_3"
+											"menu  bas   	bas    bas    bas  	  bas"
+											"notes  footer   	footer    footer    footer  	  footer";
+	/* Surcharge de commun.css */
+	grid-template-rows		: 75px 1fr 23px 40px;
+}
+
+/* ------------------------------------------------------------- Colonne 1 */
+.colonne_1 {
+	grid-area: colonne_1;
+}
+#fichiersINI {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  height:200px; /*335px;*/
+  overflow-y:auto;
+}
+#fichiersINI li {
+  margin:2px 0;
+  background-color	: rgb(225, 225, 225);
+  font-size:0.9rem;
+  padding:0 4px 2px 4px;
+}
+#fichiersINI li:hover {
+  cursor:pointer;
+}
+
+
+/* -------------------------------------------------------------- fieldset */
+
+.fieldset_fichiers, .fieldset_sections {
+  background-color	:  white;
+}
+fieldset {
+	width							: auto;
+	border-radius			: 7px;
+	margin-bottom			: 10px;
+}
+legend {
+	font-size					: 1.1em;
+	padding						: 0 7px 2px 7px;
+	color							: white;
+	background-color	: RGB(81, 81, 81);
+	border-radius			: 3px;
+}
+
+
+
+
+/* ------------------------------------------------------------- Colonne 2 */
+
+.colonne_2 {
+  grid-area: colonne_2;
+}
+
+#sections {vertical-align:top;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  height:300px;
+  overflow-y:auto;
+}
+#sections li {
+  margin:2px 0;
+  /*color:#800080;*/
+  font-weight: bold;
+  font-size:0.9rem;
+}
+#sections li:hover {
+  cursor:pointer;
+}
+
+/* ------------------------------------------------------------- Colonne 3 */
+
+.colonne_3 {
+	grid-area: colonne_3;
+}
+
+#vue li:hover {
+  cursor:pointer;
+}
+
+.vue {
+  border:1px solid gray;
+  width:auto; /*400px;*/
+  height:330px;
+  background-color:#1E1E1E;
+  color:white;
+  margin-top:0;
+  margin-bottom:0;
+  padding:6px;
+  font:15px Consolas, Lucida, 'Courier New', monospace;
+  overflow-y:auto;
+}
+.vue li {
+  background-color:#414141;
+  border-bottom:1px solid black;
+}
+
+.section {
+  color:#A082BD;
+}
+.cle {
+  color:#9CDCFE;
+}
+.valeur {
+  color:white;
+}
+.commentaire {
+  color:#6A9955;
+}
+
+/* ------------------------------------------------------------- bas */
+
+.bas {
+	grid-area: bas;
+	text-align:center;
+}
+.bas button {
+	display:inline-block;
+	margin:0;
+}
+
+/* ------------------------------------------------------------- Divers */
+
+label {
+	display						: inline-block;
+	text-align				: right;
+}
+option.classe {
+	background-color	: rgb(232, 255, 232);
+	border-top				: 1px solid #808080;
+	border-bottom			: 1px solid black;
+}
+
+.ecarteur {
+	display						: inline-block;
+	width							: 25px;
+}
+.ecarteur2 {
+	display						: inline-block;
+	width							: 60px;
+}
+
+/* ------------------------------------------------------------- aide */
+
+ div#aide {
+  background-color: #FFFFE8;
+  padding         : 6px;
+  border          : 1px solid gray;
+  border-radius   : 5px;
+  /*opacity         : 0;*/
+  visibility      : collapse;
+  display         : none;
+
+  width           : auto;
+  margin          : 0.5em auto;
+  height          : 220px;
+  overflow-y      : auto;
+  font-size       : 1.1em;
+}
+div#aff_aide {
+  padding         : 6px;
+  margin          : 0.15em auto;
+  text-align      : center;
+}
+
+/* ------------------------------------------------------------- resultats doublons */
+/*
+#cache {
+	width:1050px;
+	height:582px;
+	position:absolute;
+	top:90px;
+	left:calc(50% - 525px);
+	background-color:rgba(44, 44, 54, 0.7);
+	display:none;
+}*/
+#cache {
+	width:990px;
+	height:584px;
+	position:absolute;
+	top:90px;
+	left:calc(50% - 380px);
+	background-color:rgba(44, 44, 54, 0.4);
+	display:none;
+	border-radius:7px;
+}
+/*
+#resultats {
+	width:662px;
+	height:500px;
+	overflow-y:auto;
+	border: 1px solid gray;
+	position:absolute;
+	top:6px;
+	calc(50% - 331px);
+	background-color:rgb(44, 44, 54);
+}*/
+#resultats {
+	width:800px;
+	height:532px;
+	overflow-y:auto;
+	border: 1px solid gray;
+	position:absolute;
+	top:8px;
+	left:calc(50% - 400px);
+	background-color:rgb(44, 44, 54);
+}
+#cache #fermer_doublons_globaux {
+	position:absolute;
+	bottom:10px;																/* 45px; */
+	left:calc(50% - 50px);
+}
+      table {
+				border-collapse: collapse;
+				text-align:center;
+				width:100%;
+			}
+      thead {
+        color:#2C2C2C;
+        background-color:#DBDBDB;
+			}
+      tr#total {
+        background-color:#ebebeb;
+			}
+			tr#total td:nth-child(2),
+			tr#total td:nth-child(4),
+			tr#total td:nth-child(5) {
+        color:red;
+				font-weight:bold;
+			}
+			th, td {
+        border: 1px solid gray;
+        padding: 0 7px 3px 7px;
+      }
+			tbody {
+				vertical-align:top;
+      }
+			
+			tr.c0 td:nth-child(1),
+			tr.c0 td:nth-child(2)	{
+				background-color:#FFFFE0;
+			}			
+			tr.c1 td:nth-child(1),
+			tr.c1 td:nth-child(2)	{
+				background-color:#E0FFE0;
+			}		
+			td.a01 {
+				background-color:#FFFFE0;
+			}
+			td.a11 {
+				background-color:#E0FFE0;
+			}
+
+			td.a00, td.a10 {
+				background-color:white;
+			}
+
+
+
+
+
+
+

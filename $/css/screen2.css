@@ -1,0 +1,157 @@
+/*------------------------------------*\
+  screen2.css
+	------------
+	Configurateur Idéfix
+	Copyright © 2019
+\*------------------------------------*/
+	
+/* --------------------------------------------------------- container */
+
+.container {
+	grid-template-columns: 240px 80px 1fr 100px;
+	grid-template-areas:
+                      "menu0  	header0   header		logo"
+                      "menu	    colonne_1	colonne_1 colonne_1"
+                      "notes   	footer   	footer	 	footer";
+}
+
+/* ------------------------------------------------------------- Colonne 1 */
+
+.colonne_1 fieldset {
+  width:700px;
+	padding:15px;
+  margin:auto;
+}
+
+.colonne_1 div {
+	text-align		: center;
+}
+
+/* -------------------------------------------------------------------- */
+
+table {
+	background-color:white;
+	border-collapse: collapse;
+	border: 1px solid #B2B2B2;
+	display:inline-table;
+}
+/*
+table#t1 {
+	width:250px;
+}*/
+tr {
+	height:26px;
+}
+th, td {
+	border: 1px solid #B2B2B2;
+	padding-bottom:3px;
+}
+.rubrique {
+	color:black;
+	background-color:#D0D0A0;
+	font-weight:normal;
+}
+td:nth-child(1) {
+	padding-left:10px;
+	text-align:left;
+}
+td:nth-child(2) {
+	width:30px;
+}
+
+/* -------------------------------------------------------------------- */
+
+#t0 {
+	display: grid;
+	grid-gap: 15px 5px;	/* V H */
+	grid-template-columns: 260px 1fr;
+	grid-template-rows: auto 1fr;
+	grid-template-areas:
+                      "t1  	t2"
+                      "t3	  t2";
+	font-size:110%;
+}
+#t1 {
+  grid-area: t1;
+}
+#t2 {
+  grid-area: t2;
+}
+#t3 {
+  grid-area: t3;
+	align-self:end;
+}
+
+table#t1 img {
+  width:16px;
+	vertical-align:middle;
+	
+	margin-bottom:1px;
+}
+
+/* -------------------------------------------------------------------- */
+
+table#t2 {
+	width:400px;
+	margin-left:10px;
+}
+table#t2 td {
+	padding-top:4px;
+}
+table #cpuGaugeContainer,
+table #memoryGaugeContainer,
+table #hdGaugeContainer {
+	float:left;
+}
+
+.label1 {
+	width:130px;
+	display:inline-block;
+	margin-left:100px;
+}
+.label2 {
+	width:100px;
+	display:inline-block;
+}
+.label3 {
+	width:130px;
+	display:inline-block;
+	margin-left:10px;
+}
+.label4a {
+	display:inline-block;
+	width:28px;
+	margin-left:0;
+	margin-right:4px;
+	text-align:right;
+}
+.label4b {
+	display:inline-block;
+	width:30px;
+	margin-left:138px;
+	margin-right:4px;
+	text-align:right;
+}
+						
+/* -------------------------------------------------------------------- */
+
+.colonne_1 button {
+	display:inline-block;
+	margin-bottom:1rem;
+}
+
+#reboot_idefix {
+	margin:1rem auto 0.5rem auto;
+}
+#reboot_idefix:hover {
+	cursor:pointer;
+}
+
+#t3 .note {
+	font-size:90%;
+	margin:1.5rem 0 0 0;
+	text-align:left;
+}
+
+/* -------------------------------------------------------------------- */
+

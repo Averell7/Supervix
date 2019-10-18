@@ -1,0 +1,61 @@
+/*------------------------------------*\
+  menu_1.css
+	----------
+	Configurateur Idéfix
+	Copyright © 2019
+\*------------------------------------*/
+
+/*--------------------------------------------------------*\
+	Pour modifier la couleur de la section sélectionnée :
+	jquery-ui.css : ligne 200
+	
+	Pour modifier la couleur de la section NON sélectionnée :
+    jquery-ui.css : ligne 155
+\*--------------------------------------------------------*/
+
+.menu {
+  background-color	: hsl(51,87%,90%);
+  border	: 1px solid hsl(51,87%,60%);
+  padding-top:2px;
+  border-radius:5px;
+}
+
+#accordion {
+  width:230px;
+  font-size:0.8rem;
+  padding:0;    margin:auto;
+}
+#accordion h3 {
+	padding			: 3px 0 1px 0;
+}
+#accordion div {
+  padding:4px 0 0 0;
+}
+#accordion ul {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  line-height:1.5em;
+}
+#accordion li {
+	width:100%;
+}
+#accordion a {
+  text-decoration:none;
+	padding:2px 5px 1px 5px;
+	display:inline-block;
+	width:100%;
+}
+#accordion a {
+  border-top:1px dotted #AAAAAA;
+  border-right:1px dotted transparent;
+  border-bottom:1px dotted transparent;
+  border-left:1px dotted transparent;
+}
+#accordion a:hover {
+  background-color: #E0FFE0;		/*aqua;*/
+}
+#accordion a img {
+	vertical-align: sub;
+	margin-right		: 6px;
+}

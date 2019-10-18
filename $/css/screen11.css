@@ -1,0 +1,337 @@
+/*------------------------------------*\
+  screen11.css
+	----------
+	Configurateur Idéfix
+	Copyright © 2019
+\*------------------------------------*/
+	
+/* --------------------------------------------------------- container */
+
+.container {
+	grid-template-columns: 240px 110px 1fr 110px;
+	grid-template-areas:
+                      "menu0  	header0   header		logo"
+                      "menu	    colonne_1	colonne_2 colonne_2"
+                      "notes   	footer   	footer	 	footer";
+}
+
+/* ------------------------------- header0 */
+
+
+/* ------------------------------------------------------------- Colonne 1 */
+
+.colonne_1 {
+  grid-area: colonne_1;
+  height:100%;
+  text-align:center;
+  padding-top:0;						/*border:1px solid #D3D3D3;*/
+}
+
+.colonne_1 p:first-child {
+	/*border:1px solid blue;*/
+	color:white;
+	background-color:#008000;
+	font-size:0.9rem;
+	padding-bottom:2px;
+	margin-top:0;
+	border-radius:3px;
+}
+
+p.btn_date {
+	border:1px solid green;
+	font-size:0.8rem;
+	margin-top:0.2rem;
+	margin-bottom:0;
+	padding:0 0 2px 0;
+	background-color:#ffffff;
+}
+p.btn_date:hover {
+	cursor:pointer;
+	/*background-color:#E0F0FF;*/
+}
+
+p.btn_date2 {
+	background-image: -webkit-linear-gradient(left, transparent 104px,red 104px, red 100%);
+	background-image: -moz-linear-gradient(left, transparent 104px,red 104px, red 100%);
+	background-image: -ms-linear-gradient(left, transparent 104px,red 104px, red 100%);
+	background-image: -o-linear-gradient(left, transparent 104px,red 104px, red 100%);
+	background-image: linear-gradient(left, transparent 104px,red 104px, red 100%);
+}
+
+.difference {
+	font-size:125%;
+	margin:0.5rem auto;
+}
+.aucune_difference {
+	min-height:350px;
+	/*display:table-cell;
+	vertical-align:middle;
+	border:1px solid #D3D3D3;*/
+	text-align:center;
+	width:100%;
+	font-size:0.9rem;
+	padding-top:4rem;
+}
+
+/* ------------------------------------------------------------- Colonne 2 */
+
+.colonne_2 {
+  grid-area: colonne_2;
+  height:100%;
+  text-align:center;
+  padding-top:0;							/*border:1px solid #D3D3D3;*/
+}
+
+.titre_sauvegarde {
+	/*border:1px solid gray;*/
+	font-size:130%;
+	color:hsl(40,87%,41%);
+	font-weight:bold;
+	padding-bottom:3px;
+	margin-bottom:4px;
+	border-radius:3px;
+	
+	margin-top:0;
+	
+	background-color: hsl(51,87%,90%);
+	border: 1px solid hsl(51,87%,60%);
+}
+
+
+.ancres2, .ancres3, .ancres4 {
+	margin-top:0.1rem;
+	text-align:left;
+	display:table;
+}
+.ancres2 > div, .ancres3 > div, .ancres4 > div {
+	/*display:inline-block;border:1px dotted gray;*/
+	display:table-cell;
+	
+}
+.ancres2 div:first-child, .ancres3 div:first-child, .ancres4 div:first-child {
+	width:120px;
+}
+
+.ancre2, .ancre3, .ancre4 {
+	display:inline-block;
+	width:130px;
+	border:1px solid #D3D3D3;
+	border-radius:3px;
+	padding: 1px 3px;
+	margin:0 0.2rem 0.2rem 0.2rem;
+	text-align:center;
+}
+.ancre2 {
+	background-color:#CCF0FF;
+	text-decoration:none;
+}
+.ancre2:hover {
+	background-color:#BCD7F4;
+}
+.ancre3 {
+	background-color:#E8FFE8;
+}
+.ancre4 {
+	background-color:#E7E7E7;
+}
+
+
+/*
+.ancres2 span:first-child, .ancres3 span:first-child {
+	display:inline-block;
+	float:left;
+	width:120px;
+	
+}
+*/
+
+/* ---------------- detail_entete */
+
+.detail_entete {
+	margin-bottom:0;
+	margin-top:0.5rem;
+	border-top:none;
+	border-bottom:none;
+	width:100%;
+
+	border:1px solid #AEAEAE;
+}
+.detail_entete table {
+	width:100%;
+	table-layout:fixed;
+	display: table;
+	border-collapse:collapse;
+}
+.detail_entete th:nth-child(1) {
+	width:50%;
+	background-color:#DBDBDB;
+}
+.detail_entete th:nth-child(2) {
+	width:34px;
+	background-color:white;
+}
+.detail_entete th:nth-child(3) {
+	width:50%;
+	background-color:#E0F0FF;
+}
+
+.detail_entete th.th1 {
+	color:white;	
+	background-color:gray !important;
+}
+.detail_entete th.th3 {
+	color:white;	
+	background-color:#008000 !important;
+	border-right:1px solid #008000;
+}
+.detail_entete th.th4 {
+	width:17px;
+	background-color:#008000;
+}
+
+
+/* ----------------------- detail */
+
+.detail {
+	width:100%;
+	max-height:350px;
+	overflow-x:none;
+	overflow-y:auto;
+	overflow-y:scroll;
+	border:1px solid #AEAEAE;
+	margin:0 auto;
+}
+
+.detail table {
+	width:100%;
+	table-layout:fixed;
+	display: table;
+	border-collapse:collapse;
+}
+
+/* ---------------- th */
+
+.detail th {
+	border:1px solid gray;
+	padding: 1px 0;
+}
+
+.detail th:nth-child(1) {
+	width:50%;
+	background-color:#E7E7E7;	/*#DBDBDB;*/
+}
+.detail th:nth-child(2) {
+	width:35px;
+	background-color:white;
+}
+.detail th:nth-child(3) {
+	width:50%;
+	background-color:#E0F0FF;
+}
+
+.detail th.th1 {
+	color:white;	
+	background-color:gray !important;
+}
+.detail th.th3 {
+	color:white;	
+	background-color:#008000 !important;
+	border-right:1px solid #008000;
+}
+.detail th.th4 {
+	width:17px;
+	background-color:#008000;
+}
+
+/* ---------------- tr */
+
+.detail tr:nth-child(odd) {
+	background-color:#FFFFE0;
+}
+.detail tr:nth-child(even) {
+	background-color:#F0FFF0;
+}
+
+/* ---------------- td */
+
+.detail td {
+	border-top:1px solid #D7D7D7;
+	border-right:1px solid #D7D7D7;
+	border-left:1px solid #D7D7D7;
+	text-align:left;
+	padding: 0 0 3px 5px;
+	text-overflow: ellipsis;
+	overflow:hidden;
+}
+
+.detail td:nth-child(2) {
+	text-align:right;
+	padding: 0 5px 3px 5px;
+	background-color:white;
+}
+
+/* -------------------------------------------------------------------- */
+
+.cacher {
+	display:none;
+}
+.bloc {
+	/*border:1px dotted red;
+	padding-bottom:1rem;*/
+}
+.infos {
+	text-align:left;
+	padding:0.5rem 1rem;
+	background-color:#F3F3F3;
+	border:1px dotted #C3C3C3;
+	columns: 2;
+	column-gap:20px;
+	column-rule: 1px dotted gray;
+	
+}
+.infos > p {
+	margin-top:0;
+	margin-bottom:0.4rem;
+}
+ul.ul {
+	margin-top:0;
+	padding-left:1.3rem;
+}
+
+/*
+.infos span {
+	display:inline-block;
+	width:15px;
+	text-align:right;
+}
+*/
+/* ---------------------------------------------- FTP ----------------- */
+
+.message {
+	font-size:0.8rem;
+	/*margin:5rem auto; */
+	margin-top:5rem;
+	margin-left:calc(50% - 340px + 15px + 15px);
+	border:1px solid red;
+	padding:1rem;
+	width:500px;
+	background-color:#FFFFE0;
+	text-align:center;
+}
+.message p.left {
+	/*margin:0.4rem auto;*/
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
+
+
+
+
+
+

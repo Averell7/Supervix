@@ -1,0 +1,948 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-04-19 12:55+0200\n"
+"PO-Revision-Date: 2019-04-19 13:00+0200\n"
+"Last-Translator: Serge <xxx@xxx.com>\n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ../../../../../../idefix_dev\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: V\n"
+"X-Poedit-SearchPathExcluded-1: bandwidthd\n"
+"X-Poedit-SearchPathExcluded-2: bw\n"
+"X-Poedit-SearchPathExcluded-3: etc\n"
+"X-Poedit-SearchPathExcluded-4: home\n"
+"X-Poedit-SearchPathExcluded-5: usr\n"
+"X-Poedit-SearchPathExcluded-6: var\n"
+"X-Poedit-SearchPathExcluded-7: tmp\n"
+"X-Poedit-SearchPathExcluded-8: txt\n"
+"X-Poedit-SearchPathExcluded-9: usr - 1.0.11\n"
+"X-Poedit-SearchPathExcluded-10: _aj.php\n"
+"X-Poedit-SearchPathExcluded-11: _ajax_config_backups_suppression.php\n"
+"X-Poedit-SearchPathExcluded-12: _ajax_visu_donnees_systeme_2.php\n"
+"X-Poedit-SearchPathExcluded-13: _analyse_blocage_sites - datatable.php\n"
+"X-Poedit-SearchPathExcluded-14: _confix.php\n"
+"X-Poedit-SearchPathExcluded-15: _visu-donnees-systeme-v1.php\n"
+
+#: $/classesphp/analyseBackups.php:218
+msgid "Aucune différence détectée sur les fichiers de ce dossier."
+msgstr "Nenhuma diferença detectada nos arquivos nesta pasta."
+
+#: $/classesphp/analyseBackups.php:231
+msgid "Restaurer en date du"
+msgstr "Restaurar a partir de"
+
+#: $/classesphp/analyseBackups.php:343 $/includes/fonctions12.php:76
+#: ajax_config_backups_suppression.php:26
+msgid "Impossible de se connecter au serveur"
+msgstr "Não é possível conectar-se ao servidor"
+
+#: $/classesphp/analyseBackups.php:349 $/includes/fonctions12.php:82
+#: ajax_config_backups_suppression.php:32
+msgid "La connexion FTP a échoué."
+msgstr "A conexão FTP falhou."
+
+#: $/classesphp/analyseBackups.php:350 $/includes/fonctions12.php:83
+#: ajax_config_backups_suppression.php:33
+msgid "Tentative de connexion au serveur"
+msgstr "Tentando se conectar ao servidor"
+
+#: $/classesphp/analyseBackups.php:351 $/includes/fonctions12.php:84
+#: ajax_config_backups_suppression.php:34
+msgid "pour l'utilisateur"
+msgstr "para o usuário"
+
+#: $/classesphp/analyseBackups.php:485
+msgid "ligne"
+msgstr "linha"
+
+#: $/classesphp/analyseBackups.php:485
+msgid "Sauvegarde du"
+msgstr "Salvaguardar o"
+
+#: $/classesphp/analyseBackups.php:541
+msgid "Ne sont pas affichés"
+msgstr "Não são exibidos"
+
+#: $/classesphp/analyseBackups.php:543
+msgid "les sauvegardes qui sont identiques entre elles"
+msgstr "os backups que são idênticos uns aos outros"
+
+#: $/classesphp/analyseBackups.php:544
+msgid "les fichiers actuels qui sont identiques avec ceux de la sauvegarde"
+msgstr "os arquivos atuais que são idênticos aos do backup"
+
+#: $/classesphp/analyseBackups.php:545
+msgid "les lignes qui sont identiques pour les fichiers finalement retenus"
+msgstr "as linhas que são idênticas para os arquivos finalmente selecionados"
+
+#: $/classesphp/analyseBackups.php:553
+msgid "Attention !"
+msgstr "Atenção !"
+
+#: $/classesphp/analyseBackups.php:555
+msgid ""
+"La restauration porte sur <u>l'ensemble des fichiers</u> contenus dans "
+"l'archive ZIP"
+msgstr "A restauração cobre<u>todos os arquivos</u>contidos no arquivo ZIP"
+
+#: $/classesphp/analyseBackups.php:560
+msgid "Fichiers exclus"
+msgstr "Arquivos excluídos"
+
+#: $/classesphp/analyseBackups.php:570
+msgid "Extensions exclues"
+msgstr "Extensões Excluídas"
+
+#: $/classesphp/analyseBackups.php:714 $/classesphp/analyseBackups.php:730
+msgid "absent"
+msgstr "ausente"
+
+#: $/classesphp/analyseBackups.php:861 $/classesphp/analyseBackups.php:878
+#: $/includes/fonctions12.php:13 $/includes/fonctions12.php:31
+msgid "Impossible d'accéder aux sauvegardes"
+msgstr "Não é possível acessar backups"
+
+#: $/classesphp/analyseBackups.php:861 $/includes/fonctions12.php:13
+msgid "Le fichier"
+msgstr "O arquivo"
+
+#: $/classesphp/analyseBackups.php:861 $/includes/fonctions12.php:13
+msgid "est inexistant"
+msgstr "é inexistente"
+
+#: $/classesphp/analyseBackups.php:878 $/includes/fonctions12.php:31
+msgid "Pas de compte FTP disponible dans le fichier"
+msgstr "Nenhuma conta de FTP disponível no arquivo"
+
+#: $/includes/aide3.php:9
+msgid "Crée une nouvelle section du fichier sélectionné."
+msgstr "Cria uma nova seção do arquivo selecionado."
+
+#: $/includes/aide3.php:10
+msgid "Applique votre modification ou la création d'une nouvelle section."
+msgstr "Aplique sua alteração ou crie uma nova seção."
+
+#: $/includes/aide3.php:11
+msgid "Supprime une section ET toutes les lignes qu'elle contient."
+msgstr "Exclui uma seção E todas as linhas que ela contém."
+
+#: $/includes/aide3.php:12
+msgid "Déplace la section sélectionnée vers le haut."
+msgstr "Mova a seção selecionada para cima."
+
+#: $/includes/aide3.php:13
+msgid "Déplace la section sélectionnée vers le bas."
+msgstr "Mova a seção selecionada para baixo."
+
+#: $/includes/aide3.php:14
+msgid "Recherche les doublons sur le nom des sections."
+msgstr "Procure por duplicatas no nome das seções."
+
+#: $/includes/aide3.php:16
+msgid "Mettre ou non cette ligne complètement en commentaire."
+msgstr "Coloque ou não esta linha completamente em comentário."
+
+#: $/includes/aide3.php:17
+msgid "Saisir ou modifier le contenu de la clé."
+msgstr "Digite ou modifique o conteúdo da chave."
+
+#: $/includes/aide3.php:18
+msgid "Saisir ou modifier le contenu de la valeur."
+msgstr "Digite ou modifique o conteúdo do valor."
+
+#: $/includes/aide3.php:19
+msgid "Ajouter ou non un commentaire pour cette ligne."
+msgstr "Adicione ou adicione um comentário para esta linha."
+
+#: $/includes/aide3.php:20
+msgid "Crée une nouvelle ligne."
+msgstr "Crie uma nova linha."
+
+#: $/includes/aide3.php:21
+msgid "Applique votre modification ou la création d'une nouvelle ligne."
+msgstr "Aplique sua mudança ou crie uma nova linha."
+
+#: $/includes/aide3.php:22
+msgid "Supprime la ligne sélectionnée."
+msgstr "Exclui a linha selecionada."
+
+#: $/includes/aide3.php:23
+msgid "Recherche les éventuels doublons sur les lignes de la section en cours."
+msgstr "Procure por possíveis duplicatas nas linhas da seção atual."
+
+#: $/includes/aide3.php:24
+msgid "Déplace la ligne sélectionnée vers le haut."
+msgstr "Mova a linha selecionada para cima."
+
+#: $/includes/aide3.php:25
+msgid "Déplace la ligne sélectionnée vers le bas."
+msgstr "Move a linha selecionada para baixo."
+
+#: $/includes/aide3.php:26
+msgid ""
+"Effectue une recherche globale de tous les doublons éventuels.&lt;br />&nbsp;"
+"&lt;br />Pour chaque section de chaque fichier."
+msgstr ""
+"Executa uma pesquisa global para todos os possíveis duplicados.<br />&nbsp;"
+"<br />Para cada seção de cada arquivo."
+
+#: $/includes/alert.php:14 ajax_calcul_infos_reseau.php:177 erreur.php:95
+msgid "Erreur"
+msgstr "Erro"
+
+#: $/includes/alert.php:16
+msgid ""
+"Aucun doublon trouvé\n"
+"sur les sections"
+msgstr ""
+"Nenhuma duplicata encontrada\n"
+"nas secções"
+
+#: $/includes/alert.php:17
+msgid ""
+"Doublons trouvés\n"
+"sur les sections"
+msgstr ""
+"Duplicados encontrados\n"
+"nas secções"
+
+#: $/includes/alert.php:18
+msgid "Compléter votre saisie."
+msgstr "Complete sua entrada."
+
+#: $/includes/alert.php:19
+msgid "Recherche de doublons sur les lignes"
+msgstr "Encontre duplicatas nas linhas"
+
+#: $/includes/alert.php:20
+msgid "Aucun trouvé"
+msgstr "Nenhum encontrado"
+
+#: $/includes/alert.php:21
+msgid "trouvés"
+msgstr "encontrado"
+
+#: $/includes/alert.php:22
+msgid "trouvé sur les URLs"
+msgstr "encontrado em URLs"
+
+#: $/includes/alert.php:23
+msgid "trouvés sur les URLs"
+msgstr "encontrado em URLs"
+
+#: $/includes/alert.php:25
+msgid "Caractère interdit."
+msgstr "Caráter Proibido."
+
+#: $/includes/alert.php:27 $/includes/alert.php:32
+msgid "Veuillez compléter les champs suivants"
+msgstr "Por favor, preencha os seguintes campos"
+
+#: $/includes/alert.php:28
+msgid "Le port doit être inférieur à 65535 !"
+msgstr "A porta deve ser menor que 65535 !"
+
+#: $/includes/alert.php:29
+msgid "Veuillez corriger l'adresse IP"
+msgstr "Por favor, corrija o endereço IP"
+
+#: $/includes/alert.php:31
+msgid "Erreur : choix non implémenté."
+msgstr "Erro: escolha não implementada."
+
+#: $/includes/alert.php:34
+msgid "Attention"
+msgstr "Atenção"
+
+#: $/includes/alert.php:35
+msgid "La modification des paramètres FTP est critique"
+msgstr "Alterar as configurações de FTP é crítico"
+
+#: $/includes/alert.php:36
+msgid "Elle va entraîner l'effacement total"
+msgstr "Isso causará total apagamento"
+
+#: $/includes/alert.php:37
+msgid "de la configuration actuelle"
+msgstr "da configuração atual"
+
+#: $/includes/alert.php:38
+msgid "Continuer ?"
+msgstr "Continue ?"
+
+#: $/includes/alert.php:41
+msgid "Redémarrage en cours"
+msgstr "Reinicie em andamento"
+
+#: $/includes/alert.php:42
+msgid "Arrêt en cours"
+msgstr "Parar em andamento"
+
+#: $/includes/alert.php:44
+msgid "Vous demandez la restauration depuis"
+msgstr "Você pede restauração desde"
+
+#: $/includes/alert.php:45
+msgid "la sauvegarde du"
+msgstr "salvaguardar o"
+
+#: $/includes/alert.php:46
+msgid "Vous confirmer ?"
+msgstr "Confirmar ?"
+
+#: $/includes/bandwidthd_menu.php:3 $/includes/bandwidthd_menu.php:21
+msgid "Journée"
+msgstr "Dia"
+
+#: $/includes/bandwidthd_menu.php:7 $/includes/bandwidthd_menu.php:25
+msgid "Semaine"
+msgstr "Semana"
+
+#: $/includes/bandwidthd_menu.php:11 $/includes/bandwidthd_menu.php:29
+msgid "Mois"
+msgstr "Mês"
+
+#: $/includes/bandwidthd_menu.php:15 $/includes/bandwidthd_menu.php:33
+msgid "Année"
+msgstr "Ano"
+
+#: $/includes/bandwidthd_menu.php:20
+msgid "Sous-réseau"
+msgstr "Sub-rede"
+
+#: $/includes/chaines7.php:8 config-internet.php:137 config-internet.php:266
+msgid "Identifiant"
+msgstr "Login"
+
+#: $/includes/chaines7.php:9 changer-password.php:64 config-internet.php:141
+#: config-internet.php:269
+msgid "Mot de passe"
+msgstr "Senha"
+
+#: $/includes/deconnexion.php:2
+msgid "Se déconnecter de l'interface"
+msgstr "Desconectar da interface"
+
+#: $/includes/ips_dynamiques.php:8 $/includes/ips_dynamiques.php:39
+msgid "Automatique"
+msgstr "Automático"
+
+#: $/includes/ips_dynamiques.php:26
+msgid "Autre"
+msgstr "Outro"
+
+#: $/includes/ips_dynamiques.php:32
+msgid "Aucun"
+msgstr "Não"
+
+#: $/includes/menu.php:3
+msgid "Tableaux de bord"
+msgstr "Quadros de bordo"
+
+#: $/includes/menu.php:7 visu-donnees-systeme.php:64
+msgid "État du système"
+msgstr "Status do sistema"
+
+#: $/includes/menu.php:8 visu-bandwidth.php:16
+msgid "Bande passante"
+msgstr "Largura de banda"
+
+#: $/includes/menu.php:9
+msgid "Activité"
+msgstr "Atividade"
+
+#: $/includes/menu.php:9
+msgid "réseau"
+msgstr "rede"
+
+#: $/includes/menu.php:10 visu-users-connected.php:17
+#: visu-users-connected.php:58
+msgid "Utilisateurs connectés"
+msgstr "Usuários conectados"
+
+#: $/includes/menu.php:14
+msgid "Fonctions de base"
+msgstr "Funções básicas"
+
+#: $/includes/menu.php:17
+msgid "Mise à jour FTP du filtre"
+msgstr "Atualização de FTP do filtro"
+
+#: $/includes/menu.php:18 reboot-idefix.php:14
+msgid "Redémarrage d'Idéfix"
+msgstr "Reiniciando Idéfix"
+
+#: $/includes/menu.php:19 changer-password.php:49
+msgid "Changement du mot de passe"
+msgstr "Alterar senha"
+
+#: $/includes/menu.php:23
+msgid "Fonctions avancées"
+msgstr "Recursos Avançados"
+
+#: $/includes/menu.php:26 config-filtres.php:109 config-filtres.php:158
+msgid "Configuration des filtres"
+msgstr "Configuração de filtro"
+
+#: $/includes/menu.php:27
+msgid "Configuration Réseau"
+msgstr "Configuração de Rede"
+
+#: $/includes/menu.php:28
+msgid "Configuration Internet"
+msgstr "Configuração da Internet"
+
+#: $/includes/menu.php:29
+msgid "Mises à jour Système &bull; Interface"
+msgstr "Atualizações do Sistema &bull; interface"
+
+#: $/includes/menu.php:30 halt-idefix.php:14 halt-idefix.php:55
+msgid "Arrêt d'Idéfix"
+msgstr "Parada Idéfix"
+
+#: $/includes/menu.php:34
+msgid "Restauration"
+msgstr "Restauração"
+
+#: $/includes/menu.php:37
+msgid "Configuration Idéfix"
+msgstr "Configuração Idéfix"
+
+#: $/includes/menu.php:38
+msgid "Configuration Système"
+msgstr "Configuração do sistema"
+
+#: $/includes/menu.php:42
+msgid "Gestion"
+msgstr "Gestão"
+
+#: $/includes/menu.php:45 config-backups-suppression.php:15
+#: config-backups-suppression.php:57
+msgid "Suppression de sauvegardes"
+msgstr "Excluindo backups"
+
+#: $/includes/menu.php:49
+msgid "Diagnostics"
+msgstr "Diagnósticos"
+
+#: $/includes/menu.php:52 analyse_blocage_sites.php:16
+#: analyse_blocage_sites.php:58
+msgid "Analyse des blocages de sites"
+msgstr "Análise de blocos de sites"
+
+#: $/includes/menu.php:56
+msgid "Informations techniques"
+msgstr "Informação técnica"
+
+#: $/includes/menu.php:59
+msgid "Visualiser les fichiers"
+msgstr "Visualizar arquivos"
+
+#: $/includes/menu.php:60 $/includes/menu.php:61 $/includes/menu.php:62
+#: $/includes/menu.php:63
+msgid "État du service"
+msgstr "Estado de serviço"
+
+#: $/includes/version.php:3
+msgid "Version"
+msgstr "Versão"
+
+#: S.php:14
+msgid "Non implémenté"
+msgstr "Não implementado"
+
+#: S.php:47 acces.php:41 analyse_blocage_sites.php:50 bandwidthd_annee.php:52
+#: bandwidthd_annee_subnet.php:52 bandwidthd_jour.php:52
+#: bandwidthd_jour_subnet.php:52 bandwidthd_mois.php:52
+#: bandwidthd_mois_subnet.php:52 bandwidthd_semaine.php:52
+#: bandwidthd_semaine_subnet.php:52 changer-password.php:41
+#: config-backups-suppression.php:49 config-filtres.php:150
+#: config-internet.php:108 config-reseau.php:107
+#: config-restauration-etc-usr.php:104 config-restauration-home.php:104
+#: erreur.php:73 halt-idefix.php:47 index.php:42 reboot-idefix.php:47
+#: update-config.php:47 update-system.php:47 visu-bandwidth.php:51
+#: visu-conf.php:70 visu-donnees-systeme.php:56 visu-service-ddclient.php:50
+#: visu-service-dhcp.php:50 visu-service-iptables.php:50
+#: visu-service-squid.php:50 visu-users-connected.php:50
+msgid "Page d'accueil"
+msgstr "Página inicial"
+
+#: S.php:73
+msgid "Non implémenté."
+msgstr "Não implementado."
+
+#: acces.php:14
+msgid "Accès"
+msgstr "Acesso"
+
+#: acces.php:49
+msgid "Contrôle d'accès"
+msgstr "Controle de acesso"
+
+#: acces.php:64
+msgid "S'identifier"
+msgstr "Logar"
+
+#: acces.php:67
+msgid "Entrer mot de passe"
+msgstr "Digite a senha"
+
+#: acces.php:71
+msgid "Connexion"
+msgstr "Logar"
+
+#: ajax_calcul_infos_reseau.php:183
+msgid ""
+"Le calcul ne peux pas avoir lieu car le champ IP est vide ou non valide."
+msgstr "O cálculo não pode ocorrer porque o campo IP está vazio ou é inválido."
+
+#: ajax_calcul_infos_reseau.php:185
+msgid ""
+"Le calcul ne peux pas avoir lieu car le champ MASK est vide ou non valide."
+msgstr ""
+"O cálculo não pode ocorrer porque o campo MASK está vazio ou é inválido."
+
+#: ajax_commande_py.php:23
+msgid "À implémenter."
+msgstr "Para implementar."
+
+#: ajax_commande_py.php:42 visu-service-ddclient.php:90
+#: visu-service-dhcp.php:90 visu-service-iptables.php:90
+#: visu-service-squid.php:90 visu-users-connected.php:90
+msgid ""
+"Cette commande ne peut pas être exécutée car vous n'êtes pas sous Linux."
+msgstr ""
+"Este comando não pode ser executado porque você não está executando o Linux."
+
+#: ajax_config_backups_suppression.php:53
+#: ajax_config_backups_suppression.php:69
+msgid "Fichiers de backup supprimés"
+msgstr "Arquivos de backup excluídos"
+
+#: ajax_config_backups_suppression.php:65
+#: ajax_config_backups_suppression.php:74
+msgid "Rafraîchir"
+msgstr "Legal"
+
+#: ajax_config_restauration.php:34
+msgid "Restauration effectuée."
+msgstr "Restauração feita."
+
+#: ajax_ecrire_modifications.php:24 config-filtres.php:82
+msgid "Hors section"
+msgstr "Seção exterior"
+
+#: ajax_get_contenu_conf.php:19 visu-conf.php:28
+msgid "Ce fichier n'a pas été trouvé."
+msgstr "Este arquivo não foi encontrado."
+
+#: ajax_mdp_change.php:31
+msgid "Le nouveau mot de passe a bien été enregistré."
+msgstr "A nova senha foi salva."
+
+#: ajax_mdp_change.php:33
+msgid "Modification refusée.<br />Votre ancien mot de passe est invalide."
+msgstr "Modificação recusada.<br />Sua senha antiga é inválida."
+
+#: ajax_write_conf_internet.php:121
+msgid ""
+"L'enregistrement ne peut pas être effectué car vous n'êtes pas sous Linux."
+msgstr "O registro não pode ser feito porque você não está executando o Linux."
+
+#: ajax_write_conf_reseau.php:151
+msgid "Enregistrement effectué."
+msgstr "Gravação feita."
+
+#: analyse_blocage_sites.php:81
+msgid "Votre adresse IP"
+msgstr "Seu endereço IP"
+
+#: analyse_blocage_sites.php:87
+msgid "Heure de début"
+msgstr "Hora de início"
+
+#: analyse_blocage_sites.php:91
+msgid "Heure de fin"
+msgstr "Hora de término"
+
+#: analyse_blocage_sites.php:125
+msgid "Analyser"
+msgstr "Analisar"
+
+#: bandwidthd_annee.php:77 bandwidthd_annee_subnet.php:77
+msgid "Statistiques de l'année"
+msgstr "Estatísticas do ano"
+
+#: bandwidthd_annee_subnet.php:77 bandwidthd_jour_subnet.php:77
+#: bandwidthd_mois_subnet.php:77 bandwidthd_semaine_subnet.php:77
+msgid "sous-réseau"
+msgstr "sub-rede"
+
+#: bandwidthd_jour.php:77 bandwidthd_jour_subnet.php:77
+msgid "Statistiques de la journée"
+msgstr "Estatísticas do dia"
+
+#: bandwidthd_mois.php:77 bandwidthd_mois_subnet.php:77
+msgid "Statistiques du mois"
+msgstr "Estatísticas do mês"
+
+#: bandwidthd_semaine.php:77 bandwidthd_semaine_subnet.php:77
+msgid "Statistiques de la semaine"
+msgstr "Estatísticas da semana"
+
+#: changer-password.php:13
+msgid "Changer Mot de passe"
+msgstr "Mudar Senha"
+
+#: changer-password.php:66
+msgid "Nouveau"
+msgstr "Novo"
+
+#: changer-password.php:69
+msgid "Confirmer"
+msgstr "Confirmar"
+
+#: changer-password.php:72
+msgid "Ancien mot de passe"
+msgstr "Senha antiga"
+
+#: changer-password.php:76
+msgid "Valider"
+msgstr "Validar"
+
+#: config-backups-suppression.php:71
+msgid "Contenant les 3 dossiers"
+msgstr "Contendo as 3 pastas"
+
+#: config-filtres.php:173
+msgid "Fichiers"
+msgstr "Arquivos"
+
+#: config-filtres.php:187
+msgid "Afficher aide"
+msgstr "Mostrar ajuda"
+
+#: config-filtres.php:198
+msgid "Sections"
+msgstr "Seções"
+
+#: config-filtres.php:208 config-filtres.php:286
+msgid "Nouvelle"
+msgstr "Nova"
+
+#: config-filtres.php:211 config-filtres.php:289
+msgid "Appliquer"
+msgstr "Aplicar"
+
+#: config-filtres.php:214 config-filtres.php:293
+msgid "Supprimer"
+msgstr "Excluir"
+
+#: config-filtres.php:218 config-filtres.php:221 config-filtres.php:299
+#: config-filtres.php:302
+msgid "Déplacer"
+msgstr "Mudança"
+
+#: config-filtres.php:226 config-filtres.php:305
+msgid "Recherche doublons"
+msgstr "Pesquisar duplicatas"
+
+#: config-filtres.php:238
+msgid "Clés - Valeurs"
+msgstr "Chaves - Valores"
+
+#: config-filtres.php:247
+msgid "Préfix"
+msgstr "Prefixo"
+
+#: config-filtres.php:259
+msgid "Clé"
+msgstr "Chave"
+
+#: config-filtres.php:264
+msgid "Valeur"
+msgstr "Valor"
+
+#: config-filtres.php:269
+msgid "Commentaire"
+msgstr "Comentário"
+
+#: config-filtres.php:278
+msgid "Ligne commentée"
+msgstr "Linha comentada"
+
+#: config-filtres.php:317
+msgid "Fermer"
+msgstr "Perto"
+
+#: config-filtres.php:322
+msgid "Recherche globale des doublons"
+msgstr "Pesquisa global por duplicatas"
+
+#: config-internet.php:73 config-internet.php:116
+msgid "Configuration internet"
+msgstr "Configuração da Internet"
+
+#: config-internet.php:147
+msgid "Tester un site"
+msgstr "Testar um site"
+
+#: config-internet.php:149
+msgid "Sélection"
+msgstr "Seleção"
+
+#: config-internet.php:151
+msgid "Saisir ou double-click"
+msgstr "Digite ou clique duas vezes"
+
+#: config-internet.php:172
+msgid "Vérifier filtrage DNS"
+msgstr "Verifique a filtragem de DNS"
+
+#: config-internet.php:175
+msgid ""
+"La liste des sites est mise automatiquement à jour<br />si le site saisi "
+"n'est pas dans cette liste."
+msgstr ""
+"A lista de sites é atualizada automaticamente<br />se o site inserido não "
+"estiver nessa lista."
+
+#: config-internet.php:181
+msgid "À vérifier avec un VRAI safeDNS ou autre..."
+msgstr "Para verificar com um verdadeiro safeDNS ou outro..."
+
+#: config-internet.php:192
+msgid "Filtrage DNS"
+msgstr "Filtragem de DNS"
+
+#: config-internet.php:194 config-internet.php:241
+msgid "Gestion par"
+msgstr "Gestão por"
+
+#: config-internet.php:220 config-internet.php:223
+msgid "Serveur"
+msgstr "Servidor"
+
+#: config-internet.php:230
+msgid "IP dynamique ou fixe"
+msgstr "IP dinâmico ou fixo"
+
+#: config-internet.php:232
+msgid "Adresse IP"
+msgstr "Endereço IP"
+
+#: config-internet.php:235
+msgid "dynamique"
+msgstr "dinâmico"
+
+#: config-internet.php:238
+msgid "fixe"
+msgstr "fixo"
+
+#: config-internet.php:272
+msgid "Domaine enregistré"
+msgstr "Domínio registrado"
+
+#: config-internet.php:287 config-reseau.php:184
+msgid "Enregistrer"
+msgstr "Registro"
+
+#: config-reseau.php:69 config-reseau.php:115
+msgid "Configuration du réseau"
+msgstr "Configuração de rede"
+
+#: config-reseau.php:130
+msgid "Système"
+msgstr "Sistema"
+
+#: config-restauration-etc-usr.php:66 config-restauration-etc-usr.php:112
+msgid "Restauration de configuration système"
+msgstr "Restauração da Configuração do Sistema"
+
+#: config-restauration-home.php:66
+msgid "Restauration de configuration idéfix"
+msgstr "Restauração da Configuração Idéfix"
+
+#: config-restauration-home.php:112
+msgid "Restauration de configuration"
+msgstr "Restauração de Configuração"
+
+#: erreur.php:16
+msgid "Le serveur HTTP a compris la requête, mais refuse de la traiter."
+msgstr "O servidor HTTP entendeu o pedido, mas se recusa a processá-lo."
+
+#: erreur.php:17
+msgid ""
+"Ce code est généralement utilisé lorsqu'un serveur ne souhaite pas indiquer "
+"pourquoi la requête a été rejetée, ou lorsque aucune autre réponse ne "
+"correspond (par exemple le serveur est un Intranet et seules les machines du "
+"réseau local sont autorisées à se connecter au serveur)."
+msgstr ""
+"Esse código geralmente é usado quando um servidor não deseja indicar por que "
+"a solicitação foi rejeitada ou quando nenhuma outra resposta corresponde "
+"(por exemplo, o servidor é uma Intranet e somente máquinas na rede local têm "
+"permissão para se conectar ao servidor) ."
+
+#: erreur.php:20
+msgid "Non trouvé"
+msgstr "Não encontrado"
+
+#: erreur.php:21
+msgid ""
+"Le serveur n'a rien trouvé qui corresponde à l'adresse (URI) demandée ( non "
+"trouvé )."
+msgstr ""
+"O servidor não encontrou nada que correspondesse ao endereço (URI) "
+"solicitado (não encontrado)."
+
+#: erreur.php:22
+msgid ""
+"Cela signifie que l'URL que vous avez tapée ou cliquée est mauvaise ou "
+"obsolète et ne correspond à aucun document existant sur le serveur (vous "
+"pouvez essayez de supprimer progressivement les composants de l'URL en "
+"partant de la fin pour éventuellement retrouver un chemin d'accès existant)."
+msgstr ""
+"Isso significa que a URL que você digitou ou clicou está ruim ou "
+"desatualizada e não corresponde a nenhum documento existente no servidor "
+"(você pode tentar remover os componentes da URL gradualmente a partir do "
+"final para encontrar um caminho para acesso existente)."
+
+#: erreur.php:32 erreur.php:34
+msgid "Retour à la"
+msgstr "De volta ao"
+
+#: erreur.php:32
+msgid "page précédente"
+msgstr "página anterior"
+
+#: erreur.php:34
+msgid "page d'accueil"
+msgstr "página inicial"
+
+#: erreur.php:45 erreur.php:81
+msgid "Page inaccessible"
+msgstr "Página inacessível"
+
+#: halt-idefix.php:78
+msgid "Arrêter Idefix"
+msgstr "Parar Idefix"
+
+#: index.php:14
+msgid "Page d'accueil d'Idéfix"
+msgstr "Idéfix Homepage"
+
+#: index.php:50
+msgid "Bienvenue sur Idéfix !"
+msgstr "Bem vindo ao Idéfix !"
+
+#: reboot-idefix.php:55
+msgid "Redémarrage"
+msgstr "Restart"
+
+#: reboot-idefix.php:78 visu-donnees-systeme.php:191
+msgid "Redémarrer Idefix"
+msgstr "Reinicie o Idefix"
+
+#: update-config.php:14 update-config.php:55
+msgid "Mise à jour immédiate du filtre"
+msgstr "Atualização imediata do filtro"
+
+#: update-config.php:78
+msgid "Mettre à jour le filtre"
+msgstr "Atualizar filtro"
+
+#: update-system.php:14
+msgid "Mise à jour immédiate du système"
+msgstr "Atualização imediata do sistema"
+
+#: update-system.php:55
+msgid "Mises à jour"
+msgstr "Atualizações"
+
+#: update-system.php:92
+msgid "Mise à jour du système"
+msgstr "Atualização do sistema"
+
+#: update-system.php:106
+msgid "Mise à jour de l'interface graphique"
+msgstr "Atualização da interface gráfica"
+
+#: visu-bandwidth.php:59
+msgid "Bande passante en temps réel"
+msgstr "Largura de banda em tempo real"
+
+#: visu-bandwidth.php:82
+msgid "L'affichage n'est pas disponible car vous n'êtes pas sous Linux."
+msgstr ""
+"A exibição não está disponível porque você não está executando o Linux."
+
+#: visu-conf.php:42 visu-conf.php:78
+msgid "Visualisation des fichiers"
+msgstr "Exibindo arquivos"
+
+#: visu-donnees-systeme.php:17
+msgid "Données système"
+msgstr "Dados do sistema"
+
+#: visu-service-ddclient.php:17 visu-service-ddclient.php:58
+msgid "Service ddclient"
+msgstr "Serviço ddclient"
+
+#: visu-service-dhcp.php:17 visu-service-dhcp.php:58
+msgid "Service DHCP"
+msgstr "Serviço DHCP"
+
+#: visu-service-iptables.php:17 visu-service-iptables.php:58
+msgid "Service iptables"
+msgstr "Serviço iptables"
+
+#: visu-service-squid.php:17 visu-service-squid.php:58
+msgid "Service Squid"
+msgstr "Serviço Squid"
+
+#~ msgid "non présent"
+#~ msgstr "não presente"
+
+#~ msgid "Différences détectées"
+#~ msgstr "Diferenças detectadas"
+
+#~ msgid "Aucune différence trouvée"
+#~ msgstr "Nenhuma diferença encontrada"
+
+#~ msgid "Fichier non traité"
+#~ msgstr "Arquivo não tratado"
+
+#~ msgid "Restauration de la configuration"
+#~ msgstr "Restaurando a Configuração"
+
+#~ msgid "Cette commande va être exécutée"
+#~ msgstr "Este comando será executado"
+
+#~ msgid "Mettre à jour le système"
+#~ msgstr "Atualize o sistema"
+
+#~ msgid "Commande exécutée"
+#~ msgstr "Comando executado"
+
+#~ msgid "automatique"
+#~ msgstr "automático"
+
+#~ msgid "autre"
+#~ msgstr "outro"
+
+#~ msgid "aucun"
+#~ msgstr "não"
+
+#~ msgid "Sauvegarde"
+#~ msgstr "Salvaguardar"
+
+#~ msgid "Purger les"
+#~ msgstr "Purgar"

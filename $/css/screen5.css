@@ -1,0 +1,149 @@
+/*------------------------------------*\
+  screen5.css
+	----------
+	bandwidthd
+	Copyright © 2019
+\*------------------------------------*/
+	
+/* --------------------------------------------------------- container */
+
+.container {
+	grid-template-columns	: 240px 80px 1fr 100px;
+	grid-template-rows		: 75px 60px 1fr 40px;	/* Surcharge de commun.css */
+	grid-template-areas		:
+                      "menu0  	header0   header		logo"
+                      "menu	    sous_menu	sous_menu sous_menu"
+                      "menu	    colonne_1	colonne_1 colonne_1"
+                      "notes   	footer   	footer	 	footer";
+}
+
+/* ------------------------ titre */
+
+.titre2 {
+	font-size:1.62em;
+	color:#336699;
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.7);
+}
+.titre2 > span {
+	color:#CC0000;
+	position: relative;
+	bottom: -.2em;
+	font-size: 1em;
+	line-height: 0.8em;
+	vertical-align:super;
+}
+
+/* ---------------------------------------------------------- sous-menu */
+
+.bandwidthd_menu {
+	grid-area: sous_menu;
+	text-align:center;
+}
+.bandwidthd_menu button {
+	display:inline-block;
+  margin:0 5px 5px 5px;
+}
+span.libel {
+	display:inline-block;
+	width:145px;
+	text-align:right;
+}
+
+/* ------------------------------------------------------------- Colonne 1 */
+
+.colonne_1 {
+	/*width:75%;*/
+	border:1px dotted gray;
+	padding:15px;
+	background-color	: white;
+	margin:auto;
+}
+
+.colonne_1 p {
+	font-size:0.9rem;
+}
+.colonne_1 h4 {
+	color:white;
+	background-color	: gray;
+	font-size:1rem;
+	text-align: center;
+	margin-top:0;
+	padding:2px 0;
+}
+
+/* ----------------------------- tableau */
+
+#tableau {
+	height:250px;
+	overflow-y:auto;
+	width:902px;
+	border:1px solid gray;
+}
+table {
+	width:100%;
+	border-collapse: collapse;
+	font:0.8rem helvetica;
+}
+td, th {
+	border:1px solid gray;
+	padding:0 5px;
+}
+td:not(:first-child) {
+	text-align:right;
+}
+th {
+	background-color :#EBEBEB;
+}
+tr:nth-child(even) {
+	background-color:#FFFFE0;
+}
+tr:nth-child(odd) {
+	background-color:#D3D3D3;
+}
+
+.http {
+	color:white;
+	background-color:#0000FF;
+}
+.p2p {
+	color:white;
+	background-color:#FF00FF;
+}
+.tcp {
+	color:black;
+	background-color:#00FF00;
+}
+.udp {
+	color:white;
+	background-color:#660000;
+}
+.icmp {
+	color:white;
+	background-color:#FF0000;
+}
+
+.legende {
+	border:1px solid gray;
+	box-shadow: 0px 0px 5px 2px #9b9b9b;
+	height:23px;
+	width:902px;
+	padding-left:10px;
+	padding-top:0;
+	font-weight:bold;
+	margin:0.8rem auto 0.15rem auto;
+	background:white url("../icones/legend.gif") 170px  no-repeat;
+}
+.graphique {
+	border:1px solid gray;
+	box-shadow: 0px 0px 5px 2px #9b9b9b;
+	margin:0.15rem auto;
+	display:inline-block;
+}
+
+#graphiques {
+	height:560px;	/* Tentative pour supprimer le fouc sur #graphiques */
+}
+.colonne_1 {
+/*	height:800px;	 Tentative pour supprimer le fouc sur #graphiques */
+}
+

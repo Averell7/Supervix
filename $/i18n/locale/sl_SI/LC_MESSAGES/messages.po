@@ -1,0 +1,945 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-04-19 13:03+0200\n"
+"PO-Revision-Date: 2019-04-19 13:07+0200\n"
+"Last-Translator: Serge <xxx@xxx.com>\n"
+"Language-Team: \n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ../../../../../../idefix_dev\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: V\n"
+"X-Poedit-SearchPathExcluded-1: bandwidthd\n"
+"X-Poedit-SearchPathExcluded-2: bw\n"
+"X-Poedit-SearchPathExcluded-3: etc\n"
+"X-Poedit-SearchPathExcluded-4: home\n"
+"X-Poedit-SearchPathExcluded-5: usr\n"
+"X-Poedit-SearchPathExcluded-6: var\n"
+"X-Poedit-SearchPathExcluded-7: tmp\n"
+"X-Poedit-SearchPathExcluded-8: txt\n"
+"X-Poedit-SearchPathExcluded-9: usr - 1.0.11\n"
+"X-Poedit-SearchPathExcluded-10: _aj.php\n"
+"X-Poedit-SearchPathExcluded-11: _ajax_config_backups_suppression.php\n"
+"X-Poedit-SearchPathExcluded-12: _ajax_visu_donnees_systeme_2.php\n"
+"X-Poedit-SearchPathExcluded-13: _analyse_blocage_sites - datatable.php\n"
+"X-Poedit-SearchPathExcluded-14: _confix.php\n"
+"X-Poedit-SearchPathExcluded-15: _visu-donnees-systeme-v1.php\n"
+
+#: $/classesphp/analyseBackups.php:218
+msgid "Aucune différence détectée sur les fichiers de ce dossier."
+msgstr "V datotekah v tej mapi ni zaznane razlike."
+
+#: $/classesphp/analyseBackups.php:231
+msgid "Restaurer en date du"
+msgstr "Obnovi od"
+
+#: $/classesphp/analyseBackups.php:343 $/includes/fonctions12.php:76
+#: ajax_config_backups_suppression.php:26
+msgid "Impossible de se connecter au serveur"
+msgstr "Ne morem vzpostaviti povezave s strežnikom"
+
+#: $/classesphp/analyseBackups.php:349 $/includes/fonctions12.php:82
+#: ajax_config_backups_suppression.php:32
+msgid "La connexion FTP a échoué."
+msgstr "Povezava FTP ni uspela."
+
+#: $/classesphp/analyseBackups.php:350 $/includes/fonctions12.php:83
+#: ajax_config_backups_suppression.php:33
+msgid "Tentative de connexion au serveur"
+msgstr "Poskus povezovanja s strežnikom"
+
+#: $/classesphp/analyseBackups.php:351 $/includes/fonctions12.php:84
+#: ajax_config_backups_suppression.php:34
+msgid "pour l'utilisateur"
+msgstr "za uporabnika"
+
+#: $/classesphp/analyseBackups.php:485
+msgid "ligne"
+msgstr "vrstica"
+
+#: $/classesphp/analyseBackups.php:485
+msgid "Sauvegarde du"
+msgstr "Varovanje"
+
+#: $/classesphp/analyseBackups.php:541
+msgid "Ne sont pas affichés"
+msgstr "Niso prikazani"
+
+#: $/classesphp/analyseBackups.php:543
+msgid "les sauvegardes qui sont identiques entre elles"
+msgstr "varnostne kopije, ki so med seboj enake"
+
+#: $/classesphp/analyseBackups.php:544
+msgid "les fichiers actuels qui sont identiques avec ceux de la sauvegarde"
+msgstr "trenutne datoteke, ki so enake tistim iz varnostne kopije"
+
+#: $/classesphp/analyseBackups.php:545
+msgid "les lignes qui sont identiques pour les fichiers finalement retenus"
+msgstr "vrstice, ki so enake za končno izbrane datoteke"
+
+#: $/classesphp/analyseBackups.php:553
+msgid "Attention !"
+msgstr "Pozor !"
+
+#: $/classesphp/analyseBackups.php:555
+msgid ""
+"La restauration porte sur <u>l'ensemble des fichiers</u> contenus dans "
+"l'archive ZIP"
+msgstr "Obnavljanje zajema<u>vse datoteke</u>, ki jih vsebuje ZIP arhiv"
+
+#: $/classesphp/analyseBackups.php:560
+msgid "Fichiers exclus"
+msgstr "Izključene datoteke"
+
+#: $/classesphp/analyseBackups.php:570
+msgid "Extensions exclues"
+msgstr "Izključene razširitve"
+
+#: $/classesphp/analyseBackups.php:714 $/classesphp/analyseBackups.php:730
+msgid "absent"
+msgstr "odsoten"
+
+#: $/classesphp/analyseBackups.php:861 $/classesphp/analyseBackups.php:878
+#: $/includes/fonctions12.php:13 $/includes/fonctions12.php:31
+msgid "Impossible d'accéder aux sauvegardes"
+msgstr "Ni mogoče dostopati do varnostnih kopij"
+
+#: $/classesphp/analyseBackups.php:861 $/includes/fonctions12.php:13
+msgid "Le fichier"
+msgstr "Datoteka"
+
+#: $/classesphp/analyseBackups.php:861 $/includes/fonctions12.php:13
+msgid "est inexistant"
+msgstr "ni"
+
+#: $/classesphp/analyseBackups.php:878 $/includes/fonctions12.php:31
+msgid "Pas de compte FTP disponible dans le fichier"
+msgstr "V datoteki ni na voljo FTP računa"
+
+#: $/includes/aide3.php:9
+msgid "Crée une nouvelle section du fichier sélectionné."
+msgstr "Ustvari nov del izbrane datoteke."
+
+#: $/includes/aide3.php:10
+msgid "Applique votre modification ou la création d'une nouvelle section."
+msgstr "Uporabite svojo spremembo ali ustvarite nov razdelek."
+
+#: $/includes/aide3.php:11
+msgid "Supprime une section ET toutes les lignes qu'elle contient."
+msgstr "Izbriše odsek IN vse vrstice, ki jih vsebuje."
+
+#: $/includes/aide3.php:12
+msgid "Déplace la section sélectionnée vers le haut."
+msgstr "Premaknite izbrani del navzgor."
+
+#: $/includes/aide3.php:13
+msgid "Déplace la section sélectionnée vers le bas."
+msgstr "Premaknite izbrani del navzdol."
+
+#: $/includes/aide3.php:14
+msgid "Recherche les doublons sur le nom des sections."
+msgstr "Na ime razdelkov poiščite dvojnike."
+
+#: $/includes/aide3.php:16
+msgid "Mettre ou non cette ligne complètement en commentaire."
+msgstr "Vnesite ali ne ta vrstica popolnoma v komentar."
+
+#: $/includes/aide3.php:17
+msgid "Saisir ou modifier le contenu de la clé."
+msgstr "Vnesite ali spremenite vsebino ključa."
+
+#: $/includes/aide3.php:18
+msgid "Saisir ou modifier le contenu de la valeur."
+msgstr "Vnesite ali spremenite vsebino vrednosti."
+
+#: $/includes/aide3.php:19
+msgid "Ajouter ou non un commentaire pour cette ligne."
+msgstr "Dodajte ali dodajte komentar za to vrstico."
+
+#: $/includes/aide3.php:20
+msgid "Crée une nouvelle ligne."
+msgstr "Ustvarite novo vrstico."
+
+#: $/includes/aide3.php:21
+msgid "Applique votre modification ou la création d'une nouvelle ligne."
+msgstr "Uporabite svojo spremembo ali ustvarite novo vrstico."
+
+#: $/includes/aide3.php:22
+msgid "Supprime la ligne sélectionnée."
+msgstr "Izbriše izbrano linijo."
+
+#: $/includes/aide3.php:23
+msgid "Recherche les éventuels doublons sur les lignes de la section en cours."
+msgstr "Poiščite možne dvojnike na vrsticah trenutnega odseka."
+
+#: $/includes/aide3.php:24
+msgid "Déplace la ligne sélectionnée vers le haut."
+msgstr "Premaknite izbrano vrstico navzgor."
+
+#: $/includes/aide3.php:25
+msgid "Déplace la ligne sélectionnée vers le bas."
+msgstr "Premakne izbrano vrstico navzdol."
+
+#: $/includes/aide3.php:26
+msgid ""
+"Effectue une recherche globale de tous les doublons éventuels.&lt;br />&nbsp;"
+"&lt;br />Pour chaque section de chaque fichier."
+msgstr ""
+"Opravi globalno iskanje vseh možnih dvojnikov.<br />&nbsp;<br />Za vsak del "
+"vsake datoteke."
+
+#: $/includes/alert.php:14 ajax_calcul_infos_reseau.php:177 erreur.php:95
+msgid "Erreur"
+msgstr "Napaka"
+
+#: $/includes/alert.php:16
+msgid ""
+"Aucun doublon trouvé\n"
+"sur les sections"
+msgstr ""
+"Ni najdenih dvojnikov\n"
+"na odsekih"
+
+#: $/includes/alert.php:17
+msgid ""
+"Doublons trouvés\n"
+"sur les sections"
+msgstr ""
+"Najdeni so bili dvojniki\n"
+"na odsekih"
+
+#: $/includes/alert.php:18
+msgid "Compléter votre saisie."
+msgstr "Izpolnite vnos."
+
+#: $/includes/alert.php:19
+msgid "Recherche de doublons sur les lignes"
+msgstr "Poišči dvojnike na vrsticah"
+
+#: $/includes/alert.php:20
+msgid "Aucun trouvé"
+msgstr "Ni najdenih"
+
+#: $/includes/alert.php:21
+msgid "trouvés"
+msgstr "najdenih"
+
+#: $/includes/alert.php:22
+msgid "trouvé sur les URLs"
+msgstr "najdete na naslovih URL"
+
+#: $/includes/alert.php:23
+msgid "trouvés sur les URLs"
+msgstr "najdete na naslovih URL"
+
+#: $/includes/alert.php:25
+msgid "Caractère interdit."
+msgstr "Prepovedan značaj."
+
+#: $/includes/alert.php:27 $/includes/alert.php:32
+msgid "Veuillez compléter les champs suivants"
+msgstr "Izpolnite naslednja polja"
+
+#: $/includes/alert.php:28
+msgid "Le port doit être inférieur à 65535 !"
+msgstr "Vrata morajo biti manjša od 65535 !"
+
+#: $/includes/alert.php:29
+msgid "Veuillez corriger l'adresse IP"
+msgstr "Popravite naslov IP"
+
+#: $/includes/alert.php:31
+msgid "Erreur : choix non implémenté."
+msgstr "Napaka: izbira ni izvedena."
+
+#: $/includes/alert.php:34
+msgid "Attention"
+msgstr "Pozor"
+
+#: $/includes/alert.php:35
+msgid "La modification des paramètres FTP est critique"
+msgstr "Spreminjanje nastavitev FTP je ključnega pomena"
+
+#: $/includes/alert.php:36
+msgid "Elle va entraîner l'effacement total"
+msgstr "Povzroči popolno izbris"
+
+#: $/includes/alert.php:37
+msgid "de la configuration actuelle"
+msgstr "trenutne konfiguracije"
+
+#: $/includes/alert.php:38
+msgid "Continuer ?"
+msgstr "Nadaljujete ?"
+
+#: $/includes/alert.php:41
+msgid "Redémarrage en cours"
+msgstr "Ponovni zagon v teku"
+
+#: $/includes/alert.php:42
+msgid "Arrêt en cours"
+msgstr "Ustavi se v teku"
+
+#: $/includes/alert.php:44
+msgid "Vous demandez la restauration depuis"
+msgstr "Od takrat zahtevate obnovitev"
+
+#: $/includes/alert.php:45
+msgid "la sauvegarde du"
+msgstr "zaščito"
+
+#: $/includes/alert.php:46
+msgid "Vous confirmer ?"
+msgstr "Potrditev ?"
+
+#: $/includes/bandwidthd_menu.php:3 $/includes/bandwidthd_menu.php:21
+msgid "Journée"
+msgstr "Dan"
+
+#: $/includes/bandwidthd_menu.php:7 $/includes/bandwidthd_menu.php:25
+msgid "Semaine"
+msgstr "Teden"
+
+#: $/includes/bandwidthd_menu.php:11 $/includes/bandwidthd_menu.php:29
+msgid "Mois"
+msgstr "Mesec"
+
+#: $/includes/bandwidthd_menu.php:15 $/includes/bandwidthd_menu.php:33
+msgid "Année"
+msgstr "Leto"
+
+#: $/includes/bandwidthd_menu.php:20
+msgid "Sous-réseau"
+msgstr "Subnet"
+
+#: $/includes/chaines7.php:8 config-internet.php:137 config-internet.php:266
+msgid "Identifiant"
+msgstr "Prijava"
+
+#: $/includes/chaines7.php:9 changer-password.php:64 config-internet.php:141
+#: config-internet.php:269
+msgid "Mot de passe"
+msgstr "Geslo"
+
+#: $/includes/deconnexion.php:2
+msgid "Se déconnecter de l'interface"
+msgstr "Prekinite povezavo z vmesnikom"
+
+#: $/includes/ips_dynamiques.php:8 $/includes/ips_dynamiques.php:39
+msgid "Automatique"
+msgstr "Avtomatski"
+
+#: $/includes/ips_dynamiques.php:26
+msgid "Autre"
+msgstr "Druga"
+
+#: $/includes/ips_dynamiques.php:32
+msgid "Aucun"
+msgstr "No"
+
+#: $/includes/menu.php:3
+msgid "Tableaux de bord"
+msgstr "Nadzorne plošče"
+
+#: $/includes/menu.php:7 visu-donnees-systeme.php:64
+msgid "État du système"
+msgstr "Stanje sistema"
+
+#: $/includes/menu.php:8 visu-bandwidth.php:16
+msgid "Bande passante"
+msgstr "Pasovna širina"
+
+#: $/includes/menu.php:9
+msgid "Activité"
+msgstr "Dejavnost"
+
+#: $/includes/menu.php:9
+msgid "réseau"
+msgstr "omrežje"
+
+#: $/includes/menu.php:10 visu-users-connected.php:17
+#: visu-users-connected.php:58
+msgid "Utilisateurs connectés"
+msgstr "Uporabniki so povezani"
+
+#: $/includes/menu.php:14
+msgid "Fonctions de base"
+msgstr "Osnovne funkcije"
+
+#: $/includes/menu.php:17
+msgid "Mise à jour FTP du filtre"
+msgstr "FTP posodobitev filtra"
+
+#: $/includes/menu.php:18 reboot-idefix.php:14
+msgid "Redémarrage d'Idéfix"
+msgstr "Ponovni zagon Idéfix"
+
+#: $/includes/menu.php:19 changer-password.php:49
+msgid "Changement du mot de passe"
+msgstr "Spremeni geslo"
+
+#: $/includes/menu.php:23
+msgid "Fonctions avancées"
+msgstr "Napredne funkcije"
+
+#: $/includes/menu.php:26 config-filtres.php:109 config-filtres.php:158
+msgid "Configuration des filtres"
+msgstr "Konfiguracija filtra"
+
+#: $/includes/menu.php:27
+msgid "Configuration Réseau"
+msgstr "Konfiguracija omrežja"
+
+#: $/includes/menu.php:28
+msgid "Configuration Internet"
+msgstr "Konfiguracijo interneta"
+
+#: $/includes/menu.php:29
+msgid "Mises à jour Système &bull; Interface"
+msgstr "Posodobitve sistema &bull; vmesnik"
+
+#: $/includes/menu.php:30 halt-idefix.php:14 halt-idefix.php:55
+msgid "Arrêt d'Idéfix"
+msgstr "Idéfix se ustavi"
+
+#: $/includes/menu.php:34
+msgid "Restauration"
+msgstr "Obnova"
+
+#: $/includes/menu.php:37
+msgid "Configuration Idéfix"
+msgstr "Idéfix konfiguracija"
+
+#: $/includes/menu.php:38
+msgid "Configuration Système"
+msgstr "Konfiguracija sistema"
+
+#: $/includes/menu.php:42
+msgid "Gestion"
+msgstr "Upravljanje"
+
+#: $/includes/menu.php:45 config-backups-suppression.php:15
+#: config-backups-suppression.php:57
+msgid "Suppression de sauvegardes"
+msgstr "Brisanje varnostnih kopij"
+
+#: $/includes/menu.php:49
+msgid "Diagnostics"
+msgstr "Diagnostika"
+
+#: $/includes/menu.php:52 analyse_blocage_sites.php:16
+#: analyse_blocage_sites.php:58
+msgid "Analyse des blocages de sites"
+msgstr "Analiza blokov strani"
+
+#: $/includes/menu.php:56
+msgid "Informations techniques"
+msgstr "Tehnične informacije"
+
+#: $/includes/menu.php:59
+msgid "Visualiser les fichiers"
+msgstr "Ogled datotek"
+
+#: $/includes/menu.php:60 $/includes/menu.php:61 $/includes/menu.php:62
+#: $/includes/menu.php:63
+msgid "État du service"
+msgstr "Stanje službovanja"
+
+#: $/includes/version.php:3
+msgid "Version"
+msgstr "Različica"
+
+#: S.php:14
+msgid "Non implémenté"
+msgstr "Ni izvedeno"
+
+#: S.php:47 acces.php:41 analyse_blocage_sites.php:50 bandwidthd_annee.php:52
+#: bandwidthd_annee_subnet.php:52 bandwidthd_jour.php:52
+#: bandwidthd_jour_subnet.php:52 bandwidthd_mois.php:52
+#: bandwidthd_mois_subnet.php:52 bandwidthd_semaine.php:52
+#: bandwidthd_semaine_subnet.php:52 changer-password.php:41
+#: config-backups-suppression.php:49 config-filtres.php:150
+#: config-internet.php:108 config-reseau.php:107
+#: config-restauration-etc-usr.php:104 config-restauration-home.php:104
+#: erreur.php:73 halt-idefix.php:47 index.php:42 reboot-idefix.php:47
+#: update-config.php:47 update-system.php:47 visu-bandwidth.php:51
+#: visu-conf.php:70 visu-donnees-systeme.php:56 visu-service-ddclient.php:50
+#: visu-service-dhcp.php:50 visu-service-iptables.php:50
+#: visu-service-squid.php:50 visu-users-connected.php:50
+msgid "Page d'accueil"
+msgstr "Domača stran"
+
+#: S.php:73
+msgid "Non implémenté."
+msgstr "Ni izvedeno."
+
+#: acces.php:14
+msgid "Accès"
+msgstr "Dostop"
+
+#: acces.php:49
+msgid "Contrôle d'accès"
+msgstr "Nadzor dostopa"
+
+#: acces.php:64
+msgid "S'identifier"
+msgstr "Prijava"
+
+#: acces.php:67
+msgid "Entrer mot de passe"
+msgstr "Vnesite geslo"
+
+#: acces.php:71
+msgid "Connexion"
+msgstr "Prijava"
+
+#: ajax_calcul_infos_reseau.php:183
+msgid ""
+"Le calcul ne peux pas avoir lieu car le champ IP est vide ou non valide."
+msgstr "Izračun ni mogoč, ker je polje IP prazno ali neveljavno."
+
+#: ajax_calcul_infos_reseau.php:185
+msgid ""
+"Le calcul ne peux pas avoir lieu car le champ MASK est vide ou non valide."
+msgstr "Izračun ni mogoč, ker je polje MASK prazno ali neveljavno."
+
+#: ajax_commande_py.php:23
+msgid "À implémenter."
+msgstr "Za izvedbo."
+
+#: ajax_commande_py.php:42 visu-service-ddclient.php:90
+#: visu-service-dhcp.php:90 visu-service-iptables.php:90
+#: visu-service-squid.php:90 visu-users-connected.php:90
+msgid ""
+"Cette commande ne peut pas être exécutée car vous n'êtes pas sous Linux."
+msgstr "Tega ukaza ni mogoče izvesti, ker ne uporabljate Linuxa."
+
+#: ajax_config_backups_suppression.php:53
+#: ajax_config_backups_suppression.php:69
+msgid "Fichiers de backup supprimés"
+msgstr "Izbrisane varnostne kopije"
+
+#: ajax_config_backups_suppression.php:65
+#: ajax_config_backups_suppression.php:74
+msgid "Rafraîchir"
+msgstr "Osveži"
+
+#: ajax_config_restauration.php:34
+msgid "Restauration effectuée."
+msgstr "Obnova."
+
+#: ajax_ecrire_modifications.php:24 config-filtres.php:82
+msgid "Hors section"
+msgstr "Zunanji del"
+
+#: ajax_get_contenu_conf.php:19 visu-conf.php:28
+msgid "Ce fichier n'a pas été trouvé."
+msgstr "Datoteke ni bilo mogoče najti."
+
+#: ajax_mdp_change.php:31
+msgid "Le nouveau mot de passe a bien été enregistré."
+msgstr "Novo geslo je bilo shranjeno."
+
+#: ajax_mdp_change.php:33
+msgid "Modification refusée.<br />Votre ancien mot de passe est invalide."
+msgstr "Sprememba je zavrnjena.<br />Vaše staro geslo ni veljavno."
+
+#: ajax_write_conf_internet.php:121
+msgid ""
+"L'enregistrement ne peut pas être effectué car vous n'êtes pas sous Linux."
+msgstr "Registracija ni mogoča, ker ne uporabljate Linuxa."
+
+#: ajax_write_conf_reseau.php:151
+msgid "Enregistrement effectué."
+msgstr "Snemanje opravljeno."
+
+#: analyse_blocage_sites.php:81
+msgid "Votre adresse IP"
+msgstr "Vaš naslov IP"
+
+#: analyse_blocage_sites.php:87
+msgid "Heure de début"
+msgstr "Začetni čas"
+
+#: analyse_blocage_sites.php:91
+msgid "Heure de fin"
+msgstr "Končni čas"
+
+#: analyse_blocage_sites.php:125
+msgid "Analyser"
+msgstr "Analizirati"
+
+#: bandwidthd_annee.php:77 bandwidthd_annee_subnet.php:77
+msgid "Statistiques de l'année"
+msgstr "Statistika leta"
+
+#: bandwidthd_annee_subnet.php:77 bandwidthd_jour_subnet.php:77
+#: bandwidthd_mois_subnet.php:77 bandwidthd_semaine_subnet.php:77
+msgid "sous-réseau"
+msgstr "subnet"
+
+#: bandwidthd_jour.php:77 bandwidthd_jour_subnet.php:77
+msgid "Statistiques de la journée"
+msgstr "Statistika dneva"
+
+#: bandwidthd_mois.php:77 bandwidthd_mois_subnet.php:77
+msgid "Statistiques du mois"
+msgstr "Statistika meseca"
+
+#: bandwidthd_semaine.php:77 bandwidthd_semaine_subnet.php:77
+msgid "Statistiques de la semaine"
+msgstr "Statistika tedna"
+
+#: changer-password.php:13
+msgid "Changer Mot de passe"
+msgstr "Spremeni geslo"
+
+#: changer-password.php:66
+msgid "Nouveau"
+msgstr "Novo"
+
+#: changer-password.php:69
+msgid "Confirmer"
+msgstr "Potrditev"
+
+#: changer-password.php:72
+msgid "Ancien mot de passe"
+msgstr "Staro geslo"
+
+#: changer-password.php:76
+msgid "Valider"
+msgstr "Potrjevanje"
+
+#: config-backups-suppression.php:71
+msgid "Contenant les 3 dossiers"
+msgstr "Vsebuje 3 mape"
+
+#: config-filtres.php:173
+msgid "Fichiers"
+msgstr "Datoteke"
+
+#: config-filtres.php:187
+msgid "Afficher aide"
+msgstr "Pokaži pomoč"
+
+#: config-filtres.php:198
+msgid "Sections"
+msgstr "Oddelki"
+
+#: config-filtres.php:208 config-filtres.php:286
+msgid "Nouvelle"
+msgstr "Novice"
+
+#: config-filtres.php:211 config-filtres.php:289
+msgid "Appliquer"
+msgstr "Uporablja"
+
+#: config-filtres.php:214 config-filtres.php:293
+msgid "Supprimer"
+msgstr "Odstrani"
+
+#: config-filtres.php:218 config-filtres.php:221 config-filtres.php:299
+#: config-filtres.php:302
+msgid "Déplacer"
+msgstr "Poteza"
+
+#: config-filtres.php:226 config-filtres.php:305
+msgid "Recherche doublons"
+msgstr "Iskanje dvojnikov"
+
+#: config-filtres.php:238
+msgid "Clés - Valeurs"
+msgstr "Tipke - Vrednosti"
+
+#: config-filtres.php:247
+msgid "Préfix"
+msgstr "Predpona"
+
+#: config-filtres.php:259
+msgid "Clé"
+msgstr "Ključ"
+
+#: config-filtres.php:264
+msgid "Valeur"
+msgstr "Vrednost"
+
+#: config-filtres.php:269
+msgid "Commentaire"
+msgstr "Komentar"
+
+#: config-filtres.php:278
+msgid "Ligne commentée"
+msgstr "Označena vrstica"
+
+#: config-filtres.php:317
+msgid "Fermer"
+msgstr "Zapri"
+
+#: config-filtres.php:322
+msgid "Recherche globale des doublons"
+msgstr "Globalno iskanje dvojnikov"
+
+#: config-internet.php:73 config-internet.php:116
+msgid "Configuration internet"
+msgstr "Konfiguracijo interneta"
+
+#: config-internet.php:147
+msgid "Tester un site"
+msgstr "Preizkusite spletno mesto"
+
+#: config-internet.php:149
+msgid "Sélection"
+msgstr "Izbor"
+
+#: config-internet.php:151
+msgid "Saisir ou double-click"
+msgstr "Vnesite ali dvokliknite"
+
+#: config-internet.php:172
+msgid "Vérifier filtrage DNS"
+msgstr "Preverite filtriranje DNS"
+
+#: config-internet.php:175
+msgid ""
+"La liste des sites est mise automatiquement à jour<br />si le site saisi "
+"n'est pas dans cette liste."
+msgstr ""
+"Seznam spletnih mest se samodejno posodobi<br />če vneseno spletno mesto ni "
+"na tem seznamu."
+
+#: config-internet.php:181
+msgid "À vérifier avec un VRAI safeDNS ou autre..."
+msgstr "Če želite preveriti, ali je resnična varščina ali druga ..."
+
+#: config-internet.php:192
+msgid "Filtrage DNS"
+msgstr "Filtriranje DNS"
+
+#: config-internet.php:194 config-internet.php:241
+msgid "Gestion par"
+msgstr "Upravljanje z"
+
+#: config-internet.php:220 config-internet.php:223
+msgid "Serveur"
+msgstr "Strežnik"
+
+#: config-internet.php:230
+msgid "IP dynamique ou fixe"
+msgstr "Dinamični ali fiksni IP"
+
+#: config-internet.php:232
+msgid "Adresse IP"
+msgstr "Naslov IP"
+
+#: config-internet.php:235
+msgid "dynamique"
+msgstr "dinamično"
+
+#: config-internet.php:238
+msgid "fixe"
+msgstr "fiksna"
+
+#: config-internet.php:272
+msgid "Domaine enregistré"
+msgstr "Registrirana domena"
+
+#: config-internet.php:287 config-reseau.php:184
+msgid "Enregistrer"
+msgstr "Zapis"
+
+#: config-reseau.php:69 config-reseau.php:115
+msgid "Configuration du réseau"
+msgstr "Konfiguracija omrežja"
+
+#: config-reseau.php:130
+msgid "Système"
+msgstr "Sistem"
+
+#: config-restauration-etc-usr.php:66 config-restauration-etc-usr.php:112
+msgid "Restauration de configuration système"
+msgstr "Obnovitev konfiguracije sistema"
+
+#: config-restauration-home.php:66
+msgid "Restauration de configuration idéfix"
+msgstr "Obnovitev konfiguracije Idéfix"
+
+#: config-restauration-home.php:112
+msgid "Restauration de configuration"
+msgstr "Obnovitev konfiguracije"
+
+#: erreur.php:16
+msgid "Le serveur HTTP a compris la requête, mais refuse de la traiter."
+msgstr "Strežnik HTTP je zahtevo razumel, vendar je ne želi obdelati."
+
+#: erreur.php:17
+msgid ""
+"Ce code est généralement utilisé lorsqu'un serveur ne souhaite pas indiquer "
+"pourquoi la requête a été rejetée, ou lorsque aucune autre réponse ne "
+"correspond (par exemple le serveur est un Intranet et seules les machines du "
+"réseau local sont autorisées à se connecter au serveur)."
+msgstr ""
+"Ta koda se običajno uporablja, ko strežnik ne želi navesti, zakaj je bila "
+"zahteva zavrnjena, ali kadar se noben drug odgovor ne ujema (npr. Strežnik "
+"je intranet in se lahko le strežnik v lokalnem omrežju poveže s strežnikom) ."
+
+#: erreur.php:20
+msgid "Non trouvé"
+msgstr "Ni bilo mogoče najti"
+
+#: erreur.php:21
+msgid ""
+"Le serveur n'a rien trouvé qui corresponde à l'adresse (URI) demandée ( non "
+"trouvé )."
+msgstr ""
+"Strežnik ni našel ničesar, kar bi ustrezalo zahtevanemu (URI) naslovu (ni "
+"bilo mogoče najti)."
+
+#: erreur.php:22
+msgid ""
+"Cela signifie que l'URL que vous avez tapée ou cliquée est mauvaise ou "
+"obsolète et ne correspond à aucun document existant sur le serveur (vous "
+"pouvez essayez de supprimer progressivement les composants de l'URL en "
+"partant de la fin pour éventuellement retrouver un chemin d'accès existant)."
+msgstr ""
+"To pomeni, da je URL, ki ste ga vnesli ali kliknili, slab ali zastarel in se "
+"ne ujema z nobenim obstoječim dokumentom v strežniku (lahko poskusite "
+"odstraniti komponente s URL-ja od začetka do konca, da boste na koncu našli "
+"pot do obstoječi dostop)."
+
+#: erreur.php:32 erreur.php:34
+msgid "Retour à la"
+msgstr "Nazaj na"
+
+#: erreur.php:32
+msgid "page précédente"
+msgstr "prejšnjo stran"
+
+#: erreur.php:34
+msgid "page d'accueil"
+msgstr "domača stran"
+
+#: erreur.php:45 erreur.php:81
+msgid "Page inaccessible"
+msgstr "Stran je nedostopna"
+
+#: halt-idefix.php:78
+msgid "Arrêter Idefix"
+msgstr "Ustavite Idefix"
+
+#: index.php:14
+msgid "Page d'accueil d'Idéfix"
+msgstr "Idéfix domača stran"
+
+#: index.php:50
+msgid "Bienvenue sur Idéfix !"
+msgstr "Dobrodošli v Idefix !"
+
+#: reboot-idefix.php:55
+msgid "Redémarrage"
+msgstr "Ponovni zagon"
+
+#: reboot-idefix.php:78 visu-donnees-systeme.php:191
+msgid "Redémarrer Idefix"
+msgstr "Znova zaženite Idefix"
+
+#: update-config.php:14 update-config.php:55
+msgid "Mise à jour immédiate du filtre"
+msgstr "Takojšnja posodobitev filtra"
+
+#: update-config.php:78
+msgid "Mettre à jour le filtre"
+msgstr "Posodobi filter"
+
+#: update-system.php:14
+msgid "Mise à jour immédiate du système"
+msgstr "Takojšnja posodobitev sistema"
+
+#: update-system.php:55
+msgid "Mises à jour"
+msgstr "Posodobitve"
+
+#: update-system.php:92
+msgid "Mise à jour du système"
+msgstr "Posodobitev sistema"
+
+#: update-system.php:106
+msgid "Mise à jour de l'interface graphique"
+msgstr "Posodobitev grafičnega vmesnika"
+
+#: visu-bandwidth.php:59
+msgid "Bande passante en temps réel"
+msgstr "Pasovna širina v realnem času"
+
+#: visu-bandwidth.php:82
+msgid "L'affichage n'est pas disponible car vous n'êtes pas sous Linux."
+msgstr "Prikaz ni na voljo, ker ne uporabljate Linuxa."
+
+#: visu-conf.php:42 visu-conf.php:78
+msgid "Visualisation des fichiers"
+msgstr "Ogled datotek"
+
+#: visu-donnees-systeme.php:17
+msgid "Données système"
+msgstr "Sistemski podatki"
+
+#: visu-service-ddclient.php:17 visu-service-ddclient.php:58
+msgid "Service ddclient"
+msgstr "Storitev ddclient"
+
+#: visu-service-dhcp.php:17 visu-service-dhcp.php:58
+msgid "Service DHCP"
+msgstr "Storitev DHCP"
+
+#: visu-service-iptables.php:17 visu-service-iptables.php:58
+msgid "Service iptables"
+msgstr "Storitev iptables"
+
+#: visu-service-squid.php:17 visu-service-squid.php:58
+msgid "Service Squid"
+msgstr "Storitev Squid"
+
+#~ msgid "non présent"
+#~ msgstr "ni prisoten"
+
+#~ msgid "Différences détectées"
+#~ msgstr "Zaznane razlike"
+
+#~ msgid "Aucune différence trouvée"
+#~ msgstr "Ni razlike"
+
+#~ msgid "Fichier non traité"
+#~ msgstr "Neobdelana datoteka"
+
+#~ msgid "Restauration de la configuration"
+#~ msgstr "Obnovitev konfiguracije"
+
+#~ msgid "Cette commande va être exécutée"
+#~ msgstr "Ta ukaz bo izvršen"
+
+#~ msgid "Mettre à jour le système"
+#~ msgstr "Posodobite sistem"
+
+#~ msgid "Commande exécutée"
+#~ msgstr "Ukaz izvršen"
+
+#~ msgid "automatique"
+#~ msgstr "avtomatski"
+
+#~ msgid "autre"
+#~ msgstr "druga"
+
+#~ msgid "aucun"
+#~ msgstr "no"
+
+#~ msgid "Sauvegarde"
+#~ msgstr "Varovati"
+
+#~ msgid "Purger les"
+#~ msgstr "Purge"

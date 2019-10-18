@@ -1,0 +1,65 @@
+/*------------------------------------*\
+  screen10.css
+	----------
+	Configurateur Idéfix
+	Copyright © 2019
+\*------------------------------------*/
+	
+/* --------------------------------------------------------- container */
+
+.container {
+	grid-template-columns: 240px 80px 1fr 100px;
+	grid-template-areas:
+                      "menu0  	header0   header		logo"
+                      "menu	    colonne_1	colonne_1 colonne_1"
+                      "notes   	footer   	footer	 	footer";
+}
+
+/* ------------------------------------------------------------- Colonne 1 */
+
+.colonne_1 {
+  padding-top:2rem;
+}
+
+.colonne_1 fieldset {
+  width:900px;
+  margin:auto;
+}
+
+.colonne_1 div {
+	margin:auto;
+	display				: table-cell;
+	vertical-align: middle;
+}
+
+.colonne_1 #placeholder {
+	width:880px;
+	height:350px;
+	background-color: white;
+	border:1px solid gray;
+}
+#placeholder canvas {
+	height:350px !important;
+}
+.flot-base, .flot-averlay {
+	width:880px;
+}
+
+.colonne_1 p {
+  font-size:0.9rem;
+}
+
+.colonne_1 p.rouge {
+	font-size:0.9rem;
+	color:#BF0000;
+	background-color:#FFFFF0;
+	border-radius:5px;
+text-align:center;
+	border:1px solid #BF0000;
+	padding:0.3rem 0 0.4rem 0;
+	margin:1rem auto;
+	width:430px;
+}
+
+
+/* -------------------------------------------------------------------- */

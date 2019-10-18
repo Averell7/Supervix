@@ -1,0 +1,113 @@
+/*------------------------------------*\
+  screen7.css
+	----------
+	Configurateur Internet
+	Copyright © 2019
+\*------------------------------------*/
+
+/* --------------------------------------------------------- container */
+
+.container {
+	grid-template-columns: 240px 80px 1fr 1fr 100px;
+	grid-template-areas:
+											"menu0  	header0   header		header		logo"
+											"menu	    colonne_1	colonne_1 colonne_2	colonne_2"
+											"notes   	footer   	footer   	footer	 	footer";
+}
+
+/* ------------------------------------------------------------- Colonne 1 */
+
+.colonne_1 label {
+	width		: 150px;
+}
+
+.fieldset_sites input[type=text] {
+	width							: 270px;
+}
+.fieldset_FTP input {
+	width							: 220px;
+}
+
+/* ------- Tests de sites */
+
+#blocageDNS {
+	margin-top:15px;
+	height:100px;
+	position:relative;	
+}
+#blocageDNS #info_blocageDNS {
+	display:inline-block;
+	width:155px;
+	height:100%;
+	border:1px solid gray;
+	overflow-y:auto;
+	background-color:#F7F7F7;
+	padding:2px;
+}
+#blocageDNS #info_blocageDNS2 {
+	display:inline-block;
+	width:270px;
+	margin-left:4px;
+	vertical-align:top;
+	height:100%;
+	padding:0 2px;
+}
+#blocageDNS #verifier_filtrage_DNS {
+	display:inline;
+	margin:0 45px;
+	position:relative;
+	top:0;
+}
+#blocageDNS #info {
+	display:inline-block;
+	margin-top:1em;
+	width:100%;
+}
+
+/* ------------------------------------------------------------- Colonne 2 */
+
+.colonne_2 label {
+	width:170px;
+}
+.fieldset_filtreDNS input,
+.fieldset_filtreDNS select {
+	width							: 125px;
+}
+
+.fieldset_DynDNS select {
+	width							: 125px;
+}
+.fieldset_DynDNS input {
+	width							: 270px;
+}
+#ddclient_server, #ddclient_web {
+  background-color:#EFEFEF;
+}
+
+.colonne_2 #dynamic, .colonne_2 #static {
+	width					: 8px;
+	vertical-align: text-top;
+}
+.colonne_2 #label_dynamic, .colonne_2 #label_static {
+	width:70px;
+	text-align:left;
+	padding-bottom:4px;
+}
+
+/* -------------------------------------------------------------------- */
+
+.message {
+	font-size:0.8rem;
+	/*margin:5rem auto; */
+	margin-top:5rem;
+	margin-left:calc(50% - 555px + 15px + 15px);
+	border:1px solid green;
+	padding:1rem;
+	width:500px;
+	background-color:#FFFFE0;
+}
+.message p {
+	margin:0.4rem auto;
+}
+
+
