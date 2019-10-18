@@ -33,7 +33,7 @@ if (password_verify($mdp_old, $password)) {
 	fwrite($fnum, "confix\n".$mdp_new."\n");
 	fclose($fnum);
         shell_exec("db_load -T -t hash -f /var/www/idefix/$/settings/vsftpd_login.txt /home/rock64/idefix/vsftpd_login.db");
-	shell_exec("/usr/sbin/service vsftpd restart");
+
 	// delete the text of the file because the password is in clear in it
 	$fnum = fopen($fname2,"w");
 	fwrite($fnum, "");
