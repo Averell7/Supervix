@@ -10,8 +10,8 @@ $idefix_conf = PATH_ETC_IDEFIX."idefix.conf";
 
 if(file_exists($idefix_conf)) {
 	$conf = lire_ini_fichier_ini($idefix_conf);
-	if(	$conf["ftp"]								== "" ) $conf["ftp"]			= "ftp.online.net";
-	if(	$conf["login"]							== "" ) $conf["login"]		= "idefix@chartreux.org";
+	if(	$conf["ftp"]								== "" ) $conf["ftp"]			= "";
+	if(	$conf["login"]							== "" ) $conf["login"]		= "";
 	//if(	$conf["password"]						== "" ) $conf["password"]					= "";
 	
 	//if(	$conf["dns_filtering"]			== "" ) $conf["dns_filtering"]		= "";
@@ -105,7 +105,7 @@ if(file_exists($idefix_conf)) {
 
 		<?php //---------------------------------------------------- header ?>
 		
-		<div class="menu0" title="<?php echo _("Page d'accueil"); ?>">
+		<div class="menu0" title="<?php echo _("Page d accueil"); ?>">
 			<span class="titre0">Idéfix</span><br />
 			<span class="sous_titre0"><?php echo MAISON; ?></span>
 		</div>

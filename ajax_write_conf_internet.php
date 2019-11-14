@@ -106,7 +106,7 @@ function write_ini_file($datas, $has_sections=FALSE) {
 	}
 
 	if($conf["dns_filtering"] == "auto") {
-		$conf1 = file("/etc/idefix/idefix_auto.conf");
+		$conf1 = file("/home/rock64/idefix/idefix_auto.conf");
 		$conf2 = array();
 		foreach($conf1 as $line) {
 			$line1 = explode("=", $line, 2);

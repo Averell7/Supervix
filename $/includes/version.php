@@ -1,6 +1,6 @@
 <p style="margin:0;padding:0;float:left;">&copy; O. Cart. 2019</p>
 
-<span style="display:inline-block;"><?php echo _("Version"); ?> 1.5.0 &bull; 19-04-2019</span>
+<span style="display:inline-block;"><?php echo _("Version"); ?> 1.5.3 &bull; 29-10-2019</span>
  
 <span style="display:inline-block;float:right;">
 <?php

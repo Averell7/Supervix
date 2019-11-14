@@ -60,6 +60,13 @@ if (!defined('PATH_HOME_ROCK64_IDEFIX')) {
     define('PATH_HOME_ROCK64_IDEFIX', "home/rock64/idefix/");
 }
 
+if (!defined('PATH_VAR')) {
+	if(PHP_OS == 'Linux')
+		define('PATH_VAR', "/var/");
+	else if(PHP_OS == 'WINNT')
+    define('PATH_VAR', "var/");
+}
+
 /* ------------------------------------------------------------------------- *\
 		Restauration de backups
 \* ------------------------------------------------------------------------- */

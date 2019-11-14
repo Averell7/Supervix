@@ -30,7 +30,7 @@ if (password_verify($mdp_old, $password)) {
 
 	// modify ftp password on Idefix
 	$fnum = fopen($fname2,"w");
-	fwrite($fnum, "confix\n".$mdp_new."\n");
+	fwrite($fnum, "idefix\n".$mdp_new."\n");
 	fclose($fnum);
         shell_exec("db_load -T -t hash -f /var/www/idefix/$/settings/vsftpd_login.txt /home/rock64/idefix/vsftpd_login.db");
 

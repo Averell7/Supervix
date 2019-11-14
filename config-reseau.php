@@ -14,17 +14,15 @@ if(file_exists($idefix_conf)) {
 		 || $conf["lan_ip"]								== ""
 		 || $conf["lan_netmask"]					== ""
 		 || $conf["lan_subnet"]						== ""
-		 || $conf["proxy_http_port"]			== ""
 		 || $conf["lan_network"]					== ""
 		 || $conf["dhcp_begin"]						== ""
 		 || $conf["dhcp_end"]							== ""
 		 || $conf["lan_broadcast"]				== "") {
 		$confNouvelle = true;
 		/*$conf["idefix_id"]				= "";*/
-		$conf["lan_ip"]						= "192.168.184.184";
+		$conf["lan_ip"]						= "192.168.84.184";
 		$conf["lan_netmask"]			= "255.255.255.0";
 		/*$conf["lan_subnet"]				= "";*/
-		$conf["proxy_http_port"]	= "8080";
 	} else {
 		$confNouvelle = false;
 	}
@@ -51,7 +49,6 @@ if(file_exists($idefix_conf)) {
 	if(!isset($conf["lan_ip"]))						$conf["lan_ip"]						= "192.168.184.184";
 	if(!isset($conf["lan_netmask"]))			$conf["lan_netmask"]			= "255.255.255.0";
 	if(!isset($conf["lan_subnet"]))				$conf["lan_subnet"]				= "";
-	if(!isset($conf["proxy_http_port"]))	$conf["proxy_http_port"]	= "8080";
 
 	if(!isset($conf["lan_network"]))			$conf["lan_network"]			= "";
 	if(!isset($conf["dhcp_begin"]))				$conf["dhcp_begin"]				= "";
@@ -104,7 +101,7 @@ if(file_exists($idefix_conf)) {
 
 		<?php //---------------------------------------------------- header ?>
 		
-		<div class="menu0" title="<?php echo _("Page d'accueil"); ?>">
+		<div class="menu0" title="<?php echo _("Page d accueil"); ?>">
 			<span class="titre0">Idéfix</span><br />
 			<span class="sous_titre0"><?php echo MAISON; ?></span>
 		</div>
@@ -129,13 +126,13 @@ if(file_exists($idefix_conf)) {
 				<fieldset class="fieldset_Systeme">
 					<legend><?php echo _("Système"); ?></legend>
 
-					<label class="label" for="systeme_idefix_id">idefix-id</label> : 
+					<label class="label" for="systeme_idefix_id">identifiant</label> : 
 					<input type="text" id="systeme_idefix_id" value="<?php echo $conf["idefix_id"]?>" autofocus autocomplete='off' placeholder="GC" /><br />
 
-                    <label class="label" for="systeme_lan_ip">lan_ip</label> : 
+                    <label class="label" for="systeme_lan_ip">Adresse IP</label> : 
 					<input type="text" id="systeme_lan_ip" value="<?php echo $conf["lan_ip"]?>" /><br />
 
-					<label class="label" for="systeme_lan_netmask_cidr">lan_netmask</label> : 
+					<label class="label" for="systeme_lan_netmask_cidr">Sous-réseau</label> : 
 					<select id="systeme_lan_netmask_cidr" name="systeme_lan_netmask_cidr" size="1" style="width:17em">
 						<option disabled="" class="classe">CLASS B</option>
             <option value="22">22 &bull; 255.255.252.0 &nbsp; &nbsp;(1022 hosts)</option>
@@ -153,8 +150,6 @@ if(file_exists($idefix_conf)) {
 					<label class="label cacher" for="systeme_lan_subnet">lan_subnet :</label> 
 					<input class="cacher" type="text" id="systeme_lan_subnet" value="<?php echo $conf["lan_subnet"]?>" readonly />
 
-					<label class="label" for="systeme_proxy_http_port">proxy_http_port</label> : 
-					<input type="text" id="systeme_proxy_http_port" value="<?php echo $conf["proxy_http_port"]?>" />
 					
 					<input type="button" id="calcul" value="Calcul" /><br />
 				</fieldset>

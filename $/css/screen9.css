@@ -39,6 +39,7 @@ table td {
 td > div {
   overflow-y:auto;
   height:207px;
+  width:1024px;      /*  DEBUG !!! */
   margin:0 0 0 8px;
   padding-top:5px;
   padding-bottom:5px;

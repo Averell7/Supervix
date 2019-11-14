@@ -47,7 +47,7 @@ putenv('LC_ALL='.$locale);
 
 		<?php //---------------------------------------------------- header ?>
 		
-		<div class="menu0" title="<?php echo _("Page d'accueil"); ?>">
+		<div class="menu0" title="<?php echo _("Page d accueil"); ?>">
 			<span class="titre0">Idéfix</span><br />
 			<span class="sous_titre0"><?php echo MAISON; ?></span>
 		</div>
@@ -78,7 +78,8 @@ putenv('LC_ALL='.$locale);
 			?>
           <div>
               <?php
- 								$commande = 'sudo service ddclient status';
+ 								$commande = 'service ddclient status';
+// 								$commande = 'sudo ifconfig';
                 //echo "<p>"._("Commande exécutée")." :<br />";
                 //echo "<b>shell_exec('".$commande."')</b></p>";
 								echo "<div id='result'>";
@@ -93,9 +94,10 @@ putenv('LC_ALL='.$locale);
               ?>
           </div>
 			</fieldset>
-							
+<br>
+<a href="$/settings/diagnostic.txt"  onclick="window.open(this.href); return false;">diagnostic.txt</a>
 		</div>
-		
+
     <?php //---------------------------------------------------- footer ?>
              
     <div class="footer">

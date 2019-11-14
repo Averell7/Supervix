@@ -199,7 +199,7 @@ rsort($dossiers_DEZIP);
 					$fichiers_actuels = scandir($dossier, 1);		// 
 					
 					$d_backup = $this->dirTemp.$d_DEZIP."/".$dossier;
-					//echo "******************* d_backup = ".$d_backup."<br />";
+					echo "******************* d_backup = ".$d_backup."<br />";
 					// Fichiers correspondants dans le backup
 					$fichiers_backup = scandir($d_backup, 1);
 					//exit;

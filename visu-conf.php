@@ -8,8 +8,11 @@ include_once "$/includes/ctrl_acces.php";
 $fichiersCONF = [
   PATH_ETC.'dhcp/dhcpd.conf',
   PATH_ETC.'network/interfaces.d/eth1',
+  PATH_ETC.'idefix/nftables_init.conf',
+  PATH_ETC.'idefix/idefix.conf',
+  PATH_ETC.'idefix/unbound-network.conf',
+  PATH_ETC.'idefix/unbound-forward.conf',
   PATH_ETC.'ddclient.conf',
-  PATH_ETC.'idefix/idefix.conf'
 ];
 
 $table  = "<table><tbody><tr>";
@@ -28,7 +31,7 @@ foreach($fichiersCONF as $filename) {
 		$table .= _("Ce fichier n'a pas été trouvé.");
 	}
 	$table .= "</pre></div></td>";
-	if($k == 2) $table .= "</tr><tr>";
+	if($k % 2 == 0) $table .= "</tr><tr>";
 }
 $table .= "</tr></tbody></table>";
 

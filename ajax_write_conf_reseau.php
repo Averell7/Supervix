@@ -166,6 +166,27 @@ function write_ini_file($datas, $has_sections=FALSE) {
 	}
 
 	/* ----------------------------------------------------------------- *\
+			Apache2
+			----
+			Création ou remplacement du fichier etc/apache2/sites-available/
+	\* ----------------------------------------------------------------- */
+		
+	// Lecture du modèle 
+	$handle1 = fopen(PATH_ETC . "idefix/virtual-host.model", "r"); 
+	$data1 = fread($handle1, 10000);
+	fclose($handle1);
+	
+	// Écriture
+	$data2 = str_replace($keys, $values, $data1);
+	$handle1 = fopen(PATH_ETC."apache2/sites-available/000-default.conf", "w"); 
+	$success = fwrite($handle1, $data2);
+	fclose($handle1);
+	if(!$success) {
+		echo "Erreur d'écriture SP_21 (apache2)";
+		return;
+	}
+
+	/* ----------------------------------------------------------------- *\
 	\* ----------------------------------------------------------------- */
 
 	echo _("Enregistrement effectué.");

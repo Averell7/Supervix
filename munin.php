@@ -4,22 +4,27 @@ include_once "$/includes/referer.php";
 include_once "$/includes/init.php"; 
 //include_once "$/includes/supprime_temp.php";		// Localisation provisoire ?
 include_once "$/i18n/localization.php";
- 
+require_once "$/classesphp/magiques.php";
+
+$d = new IPs();
+$infosIPs = $d->getIPs();
+$ip = $infosIPs['eth1_IPv4_idefix']; 
+$png_path = 'http://' . $ip . ':10443/munin/localdomain/localhost.localdomain/';
 
 $fichiersCONF = [
-  PATH_MUNIN.'acpi-week.png',
-  PATH_MUNIN.'cpu-week.png',
-  PATH_MUNIN.'memory-week.png',  
+  $png_path.'acpi-week.png',
+  $png_path.'cpu-week.png',
+  $png_path.'memory-week.png',  
 ];
 
 $table  = "<table><tbody><tr>";
 $k = 0;
 foreach($fichiersCONF as $filename) {
 	//$filename = "../../".$filename;
-	$table .= "<td><div>";
+	$table .= '<td align="center">';
 	$k++;
 		$table .= '<img src="' . $filename . '"/>';
-	$table .= "</div></td>";
+	$table .= "</td>";
 	$table .= "</tr><tr>";
 }
 $table .= "</tr></tbody></table>";
@@ -52,7 +57,7 @@ $table .= "</tr></tbody></table>";
 	<link rel="stylesheet" type="text/css" href="$/css/commun.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="$/css/jquery-ui.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="$/css/menu.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="$/css/screen8.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="$/css/screen15.css" media="screen" />
 </head>
 
 <body>
@@ -82,6 +87,22 @@ $table .= "</tr></tbody></table>";
 
 		<div class="colonne_1">
 			<fieldset>
+
+			<button type="button" id="daily">
+					<img src="$/icones/calendar_day.png" alt="" /> <?php echo _("Journée"); ?>
+			</button>
+			
+			<button type="button" id="weekly">
+					<img src="$/icones/calendar_week.png" alt="" /> <?php echo _("Semaine"); ?>
+			</button>
+			<button type="button" id="monthly">
+					<img src="$/icones/calendar_month.png" alt="" /> <?php echo _("Mois"); ?>
+			</button>
+
+			<button type="button" id="yearly">
+					<img src="$/icones/calendar_month.png" alt="" /> <?php echo _("Année"); ?>
+			</button>
+			    <h1>Semaine</h1>
 			    <?php echo $table; ?>            
 			</fieldset>
 		</div>

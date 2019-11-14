@@ -53,7 +53,7 @@ putenv('LC_ALL='.$locale);
 
 		<?php //---------------------------------------------------- header ?>
 		
-		<div class="menu0" title="<?php echo _("Page d'accueil"); ?>">
+		<div class="menu0" title="<?php echo _("Page d accueil"); ?>">
 			<span class="titre0">Idéfix</span><br />
 			<span class="sous_titre0"><?php echo MAISON; ?></span>
 		</div>
@@ -135,6 +135,15 @@ putenv('LC_ALL='.$locale);
 						<tr>
 							<td id="ftp_website"></td><td id="ftp_filtering"></td>
 						</tr>
+
+							<th colspan="2" class="rubrique">Tests</th>
+						</tr>
+						<tr>
+							<td id="Ping"></td><td id="ping"></td>
+						</tr>
+
+
+
 						</table>
 						
 						<!-- -------------------------------------------------------------- -->

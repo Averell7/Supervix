@@ -31,7 +31,7 @@
   <h3><?php echo _("Fonctions avancées"); ?></h3>
   <div>
     <ul>
-        <li><a href="config-filtres.php"><img src="$/icones/computer_link.png" alt='' /><?php echo _("Configuration des filtres"); ?></a></li>
+        <?php /*<li><a href="config-filtres.php"><img src="$/icones/computer_link.png" alt='' /><?php echo _("Configuration des filtres"); ?></a></li>*/ ?>
         <li><a href="config-reseau.php"><img src="$/icones/computer_link.png" alt='' /><?php echo _("Configuration Réseau"); ?></a></li>
         <li><a href="config-internet.php"><img src="$/icones/computer_link.png" alt='' /><?php echo _("Configuration Internet"); ?></a></li>
         <li><a href="update-system.php"><img src="$/icones/cog_edit.png" alt='' /><?php echo _("Mises à jour Système &bull; Interface"); ?></a></li>
@@ -61,12 +61,27 @@
         <li><a href="bandwidthd_jour.php"><img src="$/icones/chart_curve.png" alt='' />Bandwidthd : <?php echo _("Activité"); ?> <b><?php echo _("réseau"); ?></b></a></li>
         <li><a href="visu-users-connected.php"><img src="$/icones/cmd.png" alt='' /><?php echo _("Utilisateurs connectés"); ?></a></li>
         <li><a href="visu-conf.php"><img src="$/icones/page.png" alt='' /><?php echo _("Visualiser les fichiers"); ?> <b>*.conf</b></a></li>
+        <li><a href="visu-syslog.php"><img src="$/icones/page.png" alt='' /><?php echo _("Visualiser le fichier"); ?> <b>syslog</b></a></li>
+        <li><a href="visu-log.php"><img src="$/icones/page.png" alt='' /><?php echo _("Visualiser les fichiers"); ?> <b>*.log</b></a></li>
+        <li><a href="save-log.php"><img src="$/icones/page.png" alt='' /><?php echo _("Enregistrer les fichiers"); ?> <b>*.log</b></a></li>
+        <li><a href="visu-ping.php"><img src="$/icones/cmd.png" alt='' /><?php echo _("État du réseau"); ?> <b>Ping</b></a></li>
+        <li><a href="visu-ifconfig.php"><img src="$/icones/cmd.png" alt='' /><?php echo _("État du réseau <b>Intefaces</b>"); ?> </a></li>
+      </ul>
+  </div>
+
+
+  <h3><?php echo _("Services"); ?></h3>
+  <div>
+    <ul>
+        <li><a href="visu-service-unbound.php"><img src="$/icones/cmd.png" alt='' /><?php echo _("État du service"); ?> <b>unbound</b></a></li>
         <li><a href="visu-service-squid.php"><img src="$/icones/cmd.png" alt='' /><?php echo _("État du service"); ?> <b>squid</b></a></li>
         <li><a href="visu-service-iptables.php"><img src="$/icones/cmd.png" alt='' /><?php echo _("État du service"); ?> <b>iptables</b></a></li>
         <li><a href="visu-service-dhcp.php"><img src="$/icones/cmd.png" alt='' /><?php echo _("État du service"); ?> <b>dhcp</b></a></li>
         <li><a href="visu-service-ddclient.php"><img src="$/icones/cmd.png" alt='' /><?php echo _("État du service"); ?> <b>ddclient</b></a></li>
-      </ul>
+   </ul>
   </div>
+
+
 	
 </div>
 
